@@ -1,0 +1,87 @@
+[29-Oct-2024 15:57:33 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/orders.php on line 5
+[29-Oct-2024 15:57:33 Asia/Kolkata] PHP Notice:  Undefined index: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/orders.php on line 7
+[29-Oct-2024 15:57:33 Asia/Kolkata] PHP Notice:  Undefined variable: cnt in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/orders.php on line 103
+[29-Oct-2024 15:57:35 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 4
+[29-Oct-2024 15:57:35 Asia/Kolkata] PHP Notice:  Undefined variable: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 25
+[29-Oct-2024 15:57:35 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 27
+[29-Oct-2024 15:57:45 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/app-settings.php on line 4
+[29-Oct-2024 15:57:45 Asia/Kolkata] PHP Notice:  Undefined index: aname in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/app-settings.php on line 8
+[29-Oct-2024 15:57:45 Asia/Kolkata] PHP Notice:  Undefined variable: mes in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/app-settings.php on line 287
+[29-Oct-2024 15:57:52 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/app-settings.php on line 4
+[29-Oct-2024 15:57:52 Asia/Kolkata] PHP Notice:  Undefined index: aname in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/app-settings.php on line 8
+[29-Oct-2024 15:57:52 Asia/Kolkata] PHP Notice:  Undefined variable: mes in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/app-settings.php on line 287
+[29-Oct-2024 15:57:52 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/app-settings.php on line 4
+[29-Oct-2024 15:57:52 Asia/Kolkata] PHP Notice:  Undefined index: aname in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/app-settings.php on line 8
+[29-Oct-2024 15:57:52 Asia/Kolkata] PHP Notice:  Undefined variable: mes in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/app-settings.php on line 287
+[29-Oct-2024 15:57:56 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 4
+[29-Oct-2024 15:57:56 Asia/Kolkata] PHP Notice:  Undefined variable: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 25
+[29-Oct-2024 15:57:56 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 27
+[05-Nov-2024 12:18:41 Asia/Kolkata] PHP Notice:  Undefined index: message in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/index.php on line 8
+[05-Nov-2024 12:18:41 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 4
+[05-Nov-2024 12:18:41 Asia/Kolkata] PHP Notice:  Undefined variable: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 25
+[05-Nov-2024 12:18:41 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 27
+[22-Nov-2024 13:17:46 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/product.php on line 4
+[25-Nov-2024 17:22:20 Asia/Kolkata] PHP Notice:  Undefined index: message in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/index.php on line 8
+[25-Nov-2024 17:22:47 Asia/Kolkata] PHP Notice:  Undefined index: message in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/index.php on line 8
+[25-Nov-2024 17:22:47 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 4
+[25-Nov-2024 17:22:47 Asia/Kolkata] PHP Notice:  Undefined variable: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 25
+[25-Nov-2024 17:22:47 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 27
+[25-Nov-2024 17:22:52 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/orders.php on line 5
+[25-Nov-2024 17:22:52 Asia/Kolkata] PHP Notice:  Undefined index: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/orders.php on line 7
+[25-Nov-2024 17:22:52 Asia/Kolkata] PHP Notice:  Undefined variable: cnt in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/orders.php on line 103
+[25-Nov-2024 17:23:01 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/vieworder.php on line 3
+[25-Nov-2024 17:23:01 Asia/Kolkata] PHP Notice:  Undefined index: sid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/vieworder.php on line 8
+[25-Nov-2024 17:23:24 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/change-status.php on line 4
+[25-Nov-2024 17:23:24 Asia/Kolkata] PHP Notice:  Undefined variable: aid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/change-status.php on line 106
+[25-Nov-2024 17:23:24 Asia/Kolkata] PHP Notice:  Undefined variable: mes in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/change-status.php on line 115
+[25-Nov-2024 17:23:30 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/vieworder.php on line 3
+[25-Nov-2024 17:23:30 Asia/Kolkata] PHP Notice:  Undefined index: sid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/vieworder.php on line 8
+[25-Nov-2024 17:23:35 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/orders.php on line 5
+[25-Nov-2024 17:23:35 Asia/Kolkata] PHP Notice:  Undefined index: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/orders.php on line 7
+[25-Nov-2024 17:23:35 Asia/Kolkata] PHP Notice:  Undefined variable: cnt in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/orders.php on line 103
+[25-Nov-2024 17:23:37 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 4
+[25-Nov-2024 17:23:37 Asia/Kolkata] PHP Notice:  Undefined variable: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 25
+[25-Nov-2024 17:23:37 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 27
+[25-Nov-2024 17:23:40 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/customer.php on line 4
+[25-Nov-2024 17:23:46 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 4
+[25-Nov-2024 17:23:46 Asia/Kolkata] PHP Notice:  Undefined variable: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 25
+[25-Nov-2024 17:23:46 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 27
+[25-Nov-2024 17:23:48 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/category.php on line 4
+[25-Nov-2024 17:23:50 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 4
+[25-Nov-2024 17:23:50 Asia/Kolkata] PHP Notice:  Undefined variable: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 25
+[25-Nov-2024 17:23:50 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 27
+[25-Nov-2024 17:23:51 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/subcategory.php on line 4
+[25-Nov-2024 17:23:54 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 4
+[25-Nov-2024 17:23:54 Asia/Kolkata] PHP Notice:  Undefined variable: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 25
+[25-Nov-2024 17:23:54 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 27
+[25-Nov-2024 17:23:55 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/product.php on line 4
+[25-Nov-2024 17:24:01 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 4
+[25-Nov-2024 17:24:01 Asia/Kolkata] PHP Notice:  Undefined variable: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 25
+[25-Nov-2024 17:24:01 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 27
+[25-Nov-2024 17:24:05 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/product.php on line 4
+[25-Nov-2024 17:24:08 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 4
+[25-Nov-2024 17:24:08 Asia/Kolkata] PHP Notice:  Undefined variable: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 25
+[25-Nov-2024 17:24:08 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 27
+[25-Nov-2024 17:24:15 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/delivery-charges.php on line 4
+[25-Nov-2024 17:24:15 Asia/Kolkata] PHP Notice:  Undefined index: aname in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/delivery-charges.php on line 8
+[25-Nov-2024 17:24:15 Asia/Kolkata] PHP Notice:  Undefined variable: mes in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/delivery-charges.php on line 139
+[25-Nov-2024 17:24:20 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 4
+[25-Nov-2024 17:24:20 Asia/Kolkata] PHP Notice:  Undefined variable: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 25
+[25-Nov-2024 17:24:20 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 27
+[25-Nov-2024 17:24:24 Asia/Kolkata] PHP Notice:  Undefined index: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/delivery-boy.php on line 4
+[25-Nov-2024 17:24:24 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/delivery-boy.php on line 6
+[25-Nov-2024 17:24:24 Asia/Kolkata] PHP Notice:  Undefined index: aname in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/delivery-boy.php on line 10
+[25-Nov-2024 17:24:24 Asia/Kolkata] PHP Notice:  Undefined variable: aid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/delivery-boy.php on line 94
+[25-Nov-2024 17:24:24 Asia/Kolkata] PHP Notice:  Undefined variable: aid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/delivery-boy.php on line 107
+[25-Nov-2024 17:24:24 Asia/Kolkata] PHP Notice:  Undefined variable: aid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/delivery-boy.php on line 130
+[25-Nov-2024 17:24:31 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 4
+[25-Nov-2024 17:24:31 Asia/Kolkata] PHP Notice:  Undefined variable: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 25
+[25-Nov-2024 17:24:31 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 27
+[25-Nov-2024 17:24:34 Asia/Kolkata] PHP Notice:  Undefined index: message in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/index.php on line 8
+[25-Nov-2024 17:24:34 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 4
+[25-Nov-2024 17:24:34 Asia/Kolkata] PHP Notice:  Undefined variable: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 25
+[25-Nov-2024 17:24:34 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 27
+[25-Nov-2024 17:24:37 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/searched-products.php on line 4
+[25-Nov-2024 17:24:42 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 4
+[25-Nov-2024 17:24:42 Asia/Kolkata] PHP Notice:  Undefined variable: lid in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 25
+[25-Nov-2024 17:24:42 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u971358288/domains/muttchik.com/public_html/app/sadmin/dashboard.php on line 27
