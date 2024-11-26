@@ -1,0 +1,2228 @@
+2024-10-29 08:25:35 - Incoming Request
+Data: Array
+(
+    [METHOD] => POST
+    [HEADERS] => Array
+        (
+            [Host] => muttchik.com
+            [x-verify] => fa6fcf200d92a7a45204be12bde38e120ace23bce7e98c3ad80ede8353ca8e43###1
+            [Content-Type] => application/json
+            [Content-Length] => 379
+            [Accept-Encoding] => gzip
+            [User-Agent] => okhttp/4.11.0-PPE/hermes-1_3_837
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [SESSION] => Array
+        (
+        )
+
+)
+
+
+2024-10-29 08:25:35 - Raw input received
+Data: {"response":"eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiNzk2MiIsInRyYW5zYWN0aW9uSWQiOm51bGwsImFtb3VudCI6ODAwMCwic3RhdGUiOiJGQUlMRUQiLCJyZXNwb25zZUNvZGUiOiJUWE5fQVVUT19GQUlMRUQiLCJwYXltZW50SW5zdHJ1bWVudCI6bnVsbCwiZmVlc0NvbnRleHQiOnsiYW1vdW50IjowfX19"}
+
+2024-10-29 08:25:35 - Using JSON decoded raw input
+Data: Array
+(
+    [response] => eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiNzk2MiIsInRyYW5zYWN0aW9uSWQiOm51bGwsImFtb3VudCI6ODAwMCwic3RhdGUiOiJGQUlMRUQiLCJyZXNwb25zZUNvZGUiOiJUWE5fQVVUT19GQUlMRUQiLCJwYXltZW50SW5zdHJ1bWVudCI6bnVsbCwiZmVlc0NvbnRleHQiOnsiYW1vdW50IjowfX19
+)
+
+
+2024-10-29 08:25:35 - X-Verify header found
+Data: fa6fcf200d92a7a45204be12bde38e120ace23bce7e98c3ad80ede8353ca8e43###1
+
+2024-10-29 08:25:35 - Signature verification
+Data: Array
+(
+    [payload] => eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiNzk2MiIsInRyYW5zYWN0aW9uSWQiOm51bGwsImFtb3VudCI6ODAwMCwic3RhdGUiOiJGQUlMRUQiLCJyZXNwb25zZUNvZGUiOiJUWE5fQVVUT19GQUlMRUQiLCJwYXltZW50SW5zdHJ1bWVudCI6bnVsbCwiZmVlc0NvbnRleHQiOnsiYW1vdW50IjowfX19
+    [expected] => c7882bb0ed18fc3de24903fdbbfda75c5c01042bbb753137dcdad04a3c33fb67###1
+    [received] => fa6fcf200d92a7a45204be12bde38e120ace23bce7e98c3ad80ede8353ca8e43###1
+)
+
+
+2024-10-29 08:25:35 - Error occurred: Signature verification failed
+
+2024-10-29 15:20:42 - Callback handler initialized
+--------------------------------------------------
+2024-10-29 15:20:42 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-29 15:20:42 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-29 15:20:42 - HTTP_USER_AGENT
+Data: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+--------------------------------------------------
+2024-10-29 15:20:42 - CONTENT_TYPE
+Data: application/x-www-form-urlencoded
+--------------------------------------------------
+2024-10-29 15:20:42 - POST Data
+Data: Array
+(
+    [code] => PAYMENT_SUCCESS
+    [merchantId] => M227UK7AFV4L0
+    [transactionId] => 7605
+    [amount] => 100
+    [providerReferenceId] => T2410291452279740308003
+    [merchantOrderId] => 7605
+    [param1] => na
+    [param2] => na
+    [param3] => na
+    [param4] => na
+    [param5] => na
+    [param6] => na
+    [param7] => na
+    [param8] => na
+    [param9] => na
+    [param10] => na
+    [param11] => na
+    [param12] => na
+    [param13] => na
+    [param14] => na
+    [param15] => na
+    [param16] => na
+    [param17] => na
+    [param18] => na
+    [param19] => na
+    [param20] => na
+    [checksum] => dc8f7e1dac74ec428bb9a0ae980ac64fc0a90f67c71752cc9474170ada3fc568###1
+)
+
+--------------------------------------------------
+2024-10-29 15:20:42 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:20:42 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [Content-Length] => 435
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [upgrade-insecure-requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+    [origin] => https://mercury-t2.phonepe.com
+    [Content-Type] => application/x-www-form-urlencoded
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [sec-fetch-site] => cross-site
+    [sec-fetch-mode] => navigate
+    [sec-fetch-user] => ?1
+    [sec-fetch-dest] => document
+    [Referer] => https://mercury-t2.phonepe.com/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [priority] => u=0, i
+)
+
+--------------------------------------------------
+2024-10-29 15:20:42 - Raw input received
+Data: code=PAYMENT_SUCCESS&merchantId=M227UK7AFV4L0&transactionId=7605&amount=100&providerReferenceId=T2410291452279740308003&merchantOrderId=7605&param1=na&param2=na&param3=na&param4=na&param5=na&param6=na&param7=na&param8=na&param9=na&param10=na&param11=na&param12=na&param13=na&param14=na&param15=na&param16=na&param17=na&param18=na&param19=na&param20=na&checksum=dc8f7e1dac74ec428bb9a0ae980ac64fc0a90f67c71752cc9474170ada3fc568%23%23%231
+--------------------------------------------------
+2024-10-29 15:20:42 - Converted URL-encoded data to JSON
+Data: {"code":"PAYMENT_SUCCESS","merchantId":"M227UK7AFV4L0","transactionId":"7605","amount":"100","providerReferenceId":"T2410291452279740308003","merchantOrderId":"7605","param1":"na","param2":"na","param3":"na","param4":"na","param5":"na","param6":"na","param7":"na","param8":"na","param9":"na","param10":"na","param11":"na","param12":"na","param13":"na","param14":"na","param15":"na","param16":"na","param17":"na","param18":"na","param19":"na","param20":"na","checksum":"dc8f7e1dac74ec428bb9a0ae980ac64fc0a90f67c71752cc9474170ada3fc568###1"}
+--------------------------------------------------
+2024-10-29 15:20:42 - Decoded response
+Data: Array
+(
+    [code] => PAYMENT_SUCCESS
+    [merchantId] => M227UK7AFV4L0
+    [transactionId] => 7605
+    [amount] => 100
+    [providerReferenceId] => T2410291452279740308003
+    [merchantOrderId] => 7605
+    [param1] => na
+    [param2] => na
+    [param3] => na
+    [param4] => na
+    [param5] => na
+    [param6] => na
+    [param7] => na
+    [param8] => na
+    [param9] => na
+    [param10] => na
+    [param11] => na
+    [param12] => na
+    [param13] => na
+    [param14] => na
+    [param15] => na
+    [param16] => na
+    [param17] => na
+    [param18] => na
+    [param19] => na
+    [param20] => na
+    [checksum] => dc8f7e1dac74ec428bb9a0ae980ac64fc0a90f67c71752cc9474170ada3fc568###1
+)
+
+--------------------------------------------------
+2024-10-29 15:20:42 - Missing required data
+Data: Array
+(
+    [transactionId] => 7605
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-29 15:21:24 - Callback handler initialized
+--------------------------------------------------
+2024-10-29 15:21:24 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-29 15:21:24 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-29 15:21:24 - HTTP_USER_AGENT
+Data: okhttp/4.11.0-PPE/hermes-1_3_837
+--------------------------------------------------
+2024-10-29 15:21:24 - CONTENT_TYPE
+Data: application/json
+--------------------------------------------------
+2024-10-29 15:21:24 - POST Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:21:24 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:21:24 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [x-verify] => c98d891d4ec5ca6816ece1ffcb772f95dcaac5256a6a91d958c182ee873bc63d###1
+    [Content-Type] => application/json
+    [Content-Length] => 595
+    [Accept-Encoding] => gzip
+    [User-Agent] => okhttp/4.11.0-PPE/hermes-1_3_837
+)
+
+--------------------------------------------------
+2024-10-29 15:21:24 - Raw input received
+Data: {"response":"eyJzdWNjZXNzIjp0cnVlLCJjb2RlIjoiUEFZTUVOVF9TVUNDRVNTIiwibWVzc2FnZSI6IllvdXIgcGF5bWVudCBpcyBzdWNjZXNzZnVsLiIsImRhdGEiOnsibWVyY2hhbnRJZCI6Ik0yMjdVSzdBRlY0TDAiLCJtZXJjaGFudFRyYW5zYWN0aW9uSWQiOiIzNzgzIiwidHJhbnNhY3Rpb25JZCI6IlQyNDEwMjkxNTIxMjAzNjA1MzIyMjExIiwiYW1vdW50IjoxMDAsInN0YXRlIjoiQ09NUExFVEVEIiwicmVzcG9uc2VDb2RlIjoiU1VDQ0VTUyIsInBheW1lbnRJbnN0cnVtZW50Ijp7InR5cGUiOiJVUEkiLCJ1dHIiOiI3OTg3OTMwMTE0MTUiLCJ1cGlUcmFuc2FjdGlvbklkIjoiWUJMMTU4MzRiMmIyYzgxNGYwODk2OTZkMWM2ZjczNzk3ZmUiLCJjYXJkTmV0d29yayI6bnVsbCwiYWNjb3VudFR5cGUiOiJTQVZJTkdTIn0sImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ=="}
+--------------------------------------------------
+2024-10-29 15:21:24 - Decoded response
+Data: Array
+(
+    [response] => eyJzdWNjZXNzIjp0cnVlLCJjb2RlIjoiUEFZTUVOVF9TVUNDRVNTIiwibWVzc2FnZSI6IllvdXIgcGF5bWVudCBpcyBzdWNjZXNzZnVsLiIsImRhdGEiOnsibWVyY2hhbnRJZCI6Ik0yMjdVSzdBRlY0TDAiLCJtZXJjaGFudFRyYW5zYWN0aW9uSWQiOiIzNzgzIiwidHJhbnNhY3Rpb25JZCI6IlQyNDEwMjkxNTIxMjAzNjA1MzIyMjExIiwiYW1vdW50IjoxMDAsInN0YXRlIjoiQ09NUExFVEVEIiwicmVzcG9uc2VDb2RlIjoiU1VDQ0VTUyIsInBheW1lbnRJbnN0cnVtZW50Ijp7InR5cGUiOiJVUEkiLCJ1dHIiOiI3OTg3OTMwMTE0MTUiLCJ1cGlUcmFuc2FjdGlvbklkIjoiWUJMMTU4MzRiMmIyYzgxNGYwODk2OTZkMWM2ZjczNzk3ZmUiLCJjYXJkTmV0d29yayI6bnVsbCwiYWNjb3VudFR5cGUiOiJTQVZJTkdTIn0sImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ==
+)
+
+--------------------------------------------------
+2024-10-29 15:21:24 - Decoded base64 payment data
+Data: Array
+(
+    [success] => 1
+    [code] => PAYMENT_SUCCESS
+    [message] => Your payment is successful.
+    [data] => Array
+        (
+            [merchantId] => M227UK7AFV4L0
+            [merchantTransactionId] => 3783
+            [transactionId] => T2410291521203605322211
+            [amount] => 100
+            [state] => COMPLETED
+            [responseCode] => SUCCESS
+            [paymentInstrument] => Array
+                (
+                    [type] => UPI
+                    [utr] => 798793011415
+                    [upiTransactionId] => YBL15834b2b2c814f089696d1c6f73797fe
+                    [cardNetwork] => 
+                    [accountType] => SAVINGS
+                )
+
+            [feesContext] => Array
+                (
+                    [amount] => 0
+                )
+
+        )
+
+)
+
+--------------------------------------------------
+2024-10-29 15:21:24 - Missing required data
+Data: Array
+(
+    [transactionId] => 
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-29 15:21:27 - Callback handler initialized
+--------------------------------------------------
+2024-10-29 15:21:27 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-29 15:21:27 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-29 15:21:27 - HTTP_USER_AGENT
+Data: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+--------------------------------------------------
+2024-10-29 15:21:27 - CONTENT_TYPE
+Data: application/x-www-form-urlencoded
+--------------------------------------------------
+2024-10-29 15:21:27 - POST Data
+Data: Array
+(
+    [code] => PAYMENT_SUCCESS
+    [merchantId] => M227UK7AFV4L0
+    [transactionId] => 3783
+    [amount] => 100
+    [providerReferenceId] => T2410291521203605322211
+    [merchantOrderId] => 3783
+    [param1] => na
+    [param2] => na
+    [param3] => na
+    [param4] => na
+    [param5] => na
+    [param6] => na
+    [param7] => na
+    [param8] => na
+    [param9] => na
+    [param10] => na
+    [param11] => na
+    [param12] => na
+    [param13] => na
+    [param14] => na
+    [param15] => na
+    [param16] => na
+    [param17] => na
+    [param18] => na
+    [param19] => na
+    [param20] => na
+    [checksum] => e1b4ab550b3fcb762cb920abff8054d42ac813dbacab9899da5f297dd5bd0918###1
+)
+
+--------------------------------------------------
+2024-10-29 15:21:27 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:21:27 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [Content-Length] => 435
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [origin] => https://mercury-t2.phonepe.com
+    [Content-Type] => application/x-www-form-urlencoded
+    [upgrade-insecure-requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [sec-fetch-site] => cross-site
+    [sec-fetch-mode] => navigate
+    [sec-fetch-dest] => document
+    [Referer] => https://mercury-t2.phonepe.com/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [priority] => u=0, i
+)
+
+--------------------------------------------------
+2024-10-29 15:21:27 - Raw input received
+Data: code=PAYMENT_SUCCESS&merchantId=M227UK7AFV4L0&transactionId=3783&amount=100&providerReferenceId=T2410291521203605322211&merchantOrderId=3783&param1=na&param2=na&param3=na&param4=na&param5=na&param6=na&param7=na&param8=na&param9=na&param10=na&param11=na&param12=na&param13=na&param14=na&param15=na&param16=na&param17=na&param18=na&param19=na&param20=na&checksum=e1b4ab550b3fcb762cb920abff8054d42ac813dbacab9899da5f297dd5bd0918%23%23%231
+--------------------------------------------------
+2024-10-29 15:21:27 - Converted URL-encoded data to JSON
+Data: {"code":"PAYMENT_SUCCESS","merchantId":"M227UK7AFV4L0","transactionId":"3783","amount":"100","providerReferenceId":"T2410291521203605322211","merchantOrderId":"3783","param1":"na","param2":"na","param3":"na","param4":"na","param5":"na","param6":"na","param7":"na","param8":"na","param9":"na","param10":"na","param11":"na","param12":"na","param13":"na","param14":"na","param15":"na","param16":"na","param17":"na","param18":"na","param19":"na","param20":"na","checksum":"e1b4ab550b3fcb762cb920abff8054d42ac813dbacab9899da5f297dd5bd0918###1"}
+--------------------------------------------------
+2024-10-29 15:21:27 - Decoded response
+Data: Array
+(
+    [code] => PAYMENT_SUCCESS
+    [merchantId] => M227UK7AFV4L0
+    [transactionId] => 3783
+    [amount] => 100
+    [providerReferenceId] => T2410291521203605322211
+    [merchantOrderId] => 3783
+    [param1] => na
+    [param2] => na
+    [param3] => na
+    [param4] => na
+    [param5] => na
+    [param6] => na
+    [param7] => na
+    [param8] => na
+    [param9] => na
+    [param10] => na
+    [param11] => na
+    [param12] => na
+    [param13] => na
+    [param14] => na
+    [param15] => na
+    [param16] => na
+    [param17] => na
+    [param18] => na
+    [param19] => na
+    [param20] => na
+    [checksum] => e1b4ab550b3fcb762cb920abff8054d42ac813dbacab9899da5f297dd5bd0918###1
+)
+
+--------------------------------------------------
+2024-10-29 15:21:27 - Missing required data
+Data: Array
+(
+    [transactionId] => 3783
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-29 15:26:23 - Callback handler initialized
+--------------------------------------------------
+2024-10-29 15:26:23 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-29 15:26:23 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-29 15:26:23 - HTTP_USER_AGENT
+Data: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+--------------------------------------------------
+2024-10-29 15:26:23 - CONTENT_TYPE
+Data: application/x-www-form-urlencoded
+--------------------------------------------------
+2024-10-29 15:26:23 - POST Data
+Data: Array
+(
+    [code] => PAYMENT_SUCCESS
+    [merchantId] => M227UK7AFV4L0
+    [transactionId] => 3783
+    [amount] => 100
+    [providerReferenceId] => T2410291521203605322211
+    [merchantOrderId] => 3783
+    [param1] => na
+    [param2] => na
+    [param3] => na
+    [param4] => na
+    [param5] => na
+    [param6] => na
+    [param7] => na
+    [param8] => na
+    [param9] => na
+    [param10] => na
+    [param11] => na
+    [param12] => na
+    [param13] => na
+    [param14] => na
+    [param15] => na
+    [param16] => na
+    [param17] => na
+    [param18] => na
+    [param19] => na
+    [param20] => na
+    [checksum] => e1b4ab550b3fcb762cb920abff8054d42ac813dbacab9899da5f297dd5bd0918###1
+)
+
+--------------------------------------------------
+2024-10-29 15:26:23 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:26:23 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [Content-Length] => 435
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [upgrade-insecure-requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+    [origin] => https://mercury-t2.phonepe.com
+    [Content-Type] => application/x-www-form-urlencoded
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [sec-fetch-site] => cross-site
+    [sec-fetch-mode] => navigate
+    [sec-fetch-user] => ?1
+    [sec-fetch-dest] => document
+    [Referer] => https://mercury-t2.phonepe.com/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [priority] => u=0, i
+)
+
+--------------------------------------------------
+2024-10-29 15:26:23 - Raw input received
+Data: code=PAYMENT_SUCCESS&merchantId=M227UK7AFV4L0&transactionId=3783&amount=100&providerReferenceId=T2410291521203605322211&merchantOrderId=3783&param1=na&param2=na&param3=na&param4=na&param5=na&param6=na&param7=na&param8=na&param9=na&param10=na&param11=na&param12=na&param13=na&param14=na&param15=na&param16=na&param17=na&param18=na&param19=na&param20=na&checksum=e1b4ab550b3fcb762cb920abff8054d42ac813dbacab9899da5f297dd5bd0918%23%23%231
+--------------------------------------------------
+2024-10-29 15:26:23 - Converted URL-encoded data to JSON
+Data: {"code":"PAYMENT_SUCCESS","merchantId":"M227UK7AFV4L0","transactionId":"3783","amount":"100","providerReferenceId":"T2410291521203605322211","merchantOrderId":"3783","param1":"na","param2":"na","param3":"na","param4":"na","param5":"na","param6":"na","param7":"na","param8":"na","param9":"na","param10":"na","param11":"na","param12":"na","param13":"na","param14":"na","param15":"na","param16":"na","param17":"na","param18":"na","param19":"na","param20":"na","checksum":"e1b4ab550b3fcb762cb920abff8054d42ac813dbacab9899da5f297dd5bd0918###1"}
+--------------------------------------------------
+2024-10-29 15:26:23 - Decoded response
+Data: Array
+(
+    [code] => PAYMENT_SUCCESS
+    [merchantId] => M227UK7AFV4L0
+    [transactionId] => 3783
+    [amount] => 100
+    [providerReferenceId] => T2410291521203605322211
+    [merchantOrderId] => 3783
+    [param1] => na
+    [param2] => na
+    [param3] => na
+    [param4] => na
+    [param5] => na
+    [param6] => na
+    [param7] => na
+    [param8] => na
+    [param9] => na
+    [param10] => na
+    [param11] => na
+    [param12] => na
+    [param13] => na
+    [param14] => na
+    [param15] => na
+    [param16] => na
+    [param17] => na
+    [param18] => na
+    [param19] => na
+    [param20] => na
+    [checksum] => e1b4ab550b3fcb762cb920abff8054d42ac813dbacab9899da5f297dd5bd0918###1
+)
+
+--------------------------------------------------
+2024-10-29 15:26:23 - Missing required data
+Data: Array
+(
+    [transactionId] => 3783
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-29 15:40:50 - Callback handler initialized
+--------------------------------------------------
+2024-10-29 15:40:50 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-29 15:40:50 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-29 15:40:50 - HTTP_USER_AGENT
+Data: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+--------------------------------------------------
+2024-10-29 15:40:50 - CONTENT_TYPE
+Data: application/x-www-form-urlencoded
+--------------------------------------------------
+2024-10-29 15:40:50 - POST Data
+Data: Array
+(
+    [code] => PAYMENT_SUCCESS
+    [merchantId] => M227UK7AFV4L0
+    [transactionId] => 3783
+    [amount] => 100
+    [providerReferenceId] => T2410291521203605322211
+    [merchantOrderId] => 3783
+    [param1] => na
+    [param2] => na
+    [param3] => na
+    [param4] => na
+    [param5] => na
+    [param6] => na
+    [param7] => na
+    [param8] => na
+    [param9] => na
+    [param10] => na
+    [param11] => na
+    [param12] => na
+    [param13] => na
+    [param14] => na
+    [param15] => na
+    [param16] => na
+    [param17] => na
+    [param18] => na
+    [param19] => na
+    [param20] => na
+    [checksum] => e1b4ab550b3fcb762cb920abff8054d42ac813dbacab9899da5f297dd5bd0918###1
+)
+
+--------------------------------------------------
+2024-10-29 15:40:50 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:40:50 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [Content-Length] => 435
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [upgrade-insecure-requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+    [origin] => https://mercury-t2.phonepe.com
+    [Content-Type] => application/x-www-form-urlencoded
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [sec-fetch-site] => cross-site
+    [sec-fetch-mode] => navigate
+    [sec-fetch-user] => ?1
+    [sec-fetch-dest] => document
+    [Referer] => https://mercury-t2.phonepe.com/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [priority] => u=0, i
+)
+
+--------------------------------------------------
+2024-10-29 15:40:50 - Raw input received
+Data: code=PAYMENT_SUCCESS&merchantId=M227UK7AFV4L0&transactionId=3783&amount=100&providerReferenceId=T2410291521203605322211&merchantOrderId=3783&param1=na&param2=na&param3=na&param4=na&param5=na&param6=na&param7=na&param8=na&param9=na&param10=na&param11=na&param12=na&param13=na&param14=na&param15=na&param16=na&param17=na&param18=na&param19=na&param20=na&checksum=e1b4ab550b3fcb762cb920abff8054d42ac813dbacab9899da5f297dd5bd0918%23%23%231
+--------------------------------------------------
+2024-10-29 15:40:50 - Converted URL-encoded data to JSON
+Data: {"code":"PAYMENT_SUCCESS","merchantId":"M227UK7AFV4L0","transactionId":"3783","amount":"100","providerReferenceId":"T2410291521203605322211","merchantOrderId":"3783","param1":"na","param2":"na","param3":"na","param4":"na","param5":"na","param6":"na","param7":"na","param8":"na","param9":"na","param10":"na","param11":"na","param12":"na","param13":"na","param14":"na","param15":"na","param16":"na","param17":"na","param18":"na","param19":"na","param20":"na","checksum":"e1b4ab550b3fcb762cb920abff8054d42ac813dbacab9899da5f297dd5bd0918###1"}
+--------------------------------------------------
+2024-10-29 15:40:50 - Decoded response
+Data: Array
+(
+    [code] => PAYMENT_SUCCESS
+    [merchantId] => M227UK7AFV4L0
+    [transactionId] => 3783
+    [amount] => 100
+    [providerReferenceId] => T2410291521203605322211
+    [merchantOrderId] => 3783
+    [param1] => na
+    [param2] => na
+    [param3] => na
+    [param4] => na
+    [param5] => na
+    [param6] => na
+    [param7] => na
+    [param8] => na
+    [param9] => na
+    [param10] => na
+    [param11] => na
+    [param12] => na
+    [param13] => na
+    [param14] => na
+    [param15] => na
+    [param16] => na
+    [param17] => na
+    [param18] => na
+    [param19] => na
+    [param20] => na
+    [checksum] => e1b4ab550b3fcb762cb920abff8054d42ac813dbacab9899da5f297dd5bd0918###1
+)
+
+--------------------------------------------------
+2024-10-29 15:40:50 - Missing required data
+Data: Array
+(
+    [transactionId] => 3783
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-29 15:48:22 - Callback handler initialized
+--------------------------------------------------
+2024-10-29 15:48:22 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-29 15:48:22 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-29 15:48:22 - HTTP_USER_AGENT
+Data: okhttp/4.11.0-PPE/hermes-1_3_837
+--------------------------------------------------
+2024-10-29 15:48:22 - CONTENT_TYPE
+Data: application/json
+--------------------------------------------------
+2024-10-29 15:48:22 - POST Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:48:22 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:48:22 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [x-verify] => f0dbfd3ee8d17a694a393b5a1b130a91c3a8f68111b58ca5156ee31f27215b17###1
+    [Content-Type] => application/json
+    [Content-Length] => 595
+    [Accept-Encoding] => gzip
+    [User-Agent] => okhttp/4.11.0-PPE/hermes-1_3_837
+)
+
+--------------------------------------------------
+2024-10-29 15:48:22 - Raw input received
+Data: {"response":"eyJzdWNjZXNzIjp0cnVlLCJjb2RlIjoiUEFZTUVOVF9TVUNDRVNTIiwibWVzc2FnZSI6IllvdXIgcGF5bWVudCBpcyBzdWNjZXNzZnVsLiIsImRhdGEiOnsibWVyY2hhbnRJZCI6Ik0yMjdVSzdBRlY0TDAiLCJtZXJjaGFudFRyYW5zYWN0aW9uSWQiOiIzOTE4IiwidHJhbnNhY3Rpb25JZCI6IlQyNDEwMjkxNTQ4MTU0Njg0NjU5MzY2IiwiYW1vdW50IjoxMDAsInN0YXRlIjoiQ09NUExFVEVEIiwicmVzcG9uc2VDb2RlIjoiU1VDQ0VTUyIsInBheW1lbnRJbnN0cnVtZW50Ijp7InR5cGUiOiJVUEkiLCJ1dHIiOiI2OTc1NTQ3MDg1NTQiLCJ1cGlUcmFuc2FjdGlvbklkIjoiWUJMMzVkNzJmNjU4ZTk1NGQ3MzliM2EzYzE3YjkzYjEzNDMiLCJjYXJkTmV0d29yayI6bnVsbCwiYWNjb3VudFR5cGUiOiJTQVZJTkdTIn0sImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ=="}
+--------------------------------------------------
+2024-10-29 15:48:22 - Decoded response
+Data: Array
+(
+    [response] => eyJzdWNjZXNzIjp0cnVlLCJjb2RlIjoiUEFZTUVOVF9TVUNDRVNTIiwibWVzc2FnZSI6IllvdXIgcGF5bWVudCBpcyBzdWNjZXNzZnVsLiIsImRhdGEiOnsibWVyY2hhbnRJZCI6Ik0yMjdVSzdBRlY0TDAiLCJtZXJjaGFudFRyYW5zYWN0aW9uSWQiOiIzOTE4IiwidHJhbnNhY3Rpb25JZCI6IlQyNDEwMjkxNTQ4MTU0Njg0NjU5MzY2IiwiYW1vdW50IjoxMDAsInN0YXRlIjoiQ09NUExFVEVEIiwicmVzcG9uc2VDb2RlIjoiU1VDQ0VTUyIsInBheW1lbnRJbnN0cnVtZW50Ijp7InR5cGUiOiJVUEkiLCJ1dHIiOiI2OTc1NTQ3MDg1NTQiLCJ1cGlUcmFuc2FjdGlvbklkIjoiWUJMMzVkNzJmNjU4ZTk1NGQ3MzliM2EzYzE3YjkzYjEzNDMiLCJjYXJkTmV0d29yayI6bnVsbCwiYWNjb3VudFR5cGUiOiJTQVZJTkdTIn0sImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ==
+)
+
+--------------------------------------------------
+2024-10-29 15:48:22 - Decoded base64 payment data
+Data: Array
+(
+    [success] => 1
+    [code] => PAYMENT_SUCCESS
+    [message] => Your payment is successful.
+    [data] => Array
+        (
+            [merchantId] => M227UK7AFV4L0
+            [merchantTransactionId] => 3918
+            [transactionId] => T2410291548154684659366
+            [amount] => 100
+            [state] => COMPLETED
+            [responseCode] => SUCCESS
+            [paymentInstrument] => Array
+                (
+                    [type] => UPI
+                    [utr] => 697554708554
+                    [upiTransactionId] => YBL35d72f658e954d739b3a3c17b93b1343
+                    [cardNetwork] => 
+                    [accountType] => SAVINGS
+                )
+
+            [feesContext] => Array
+                (
+                    [amount] => 0
+                )
+
+        )
+
+)
+
+--------------------------------------------------
+2024-10-29 15:48:22 - Missing required data
+Data: Array
+(
+    [transactionId] => 
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-29 15:48:23 - Callback handler initialized
+--------------------------------------------------
+2024-10-29 15:48:23 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-29 15:48:23 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-29 15:48:23 - HTTP_USER_AGENT
+Data: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+--------------------------------------------------
+2024-10-29 15:48:23 - CONTENT_TYPE
+Data: application/x-www-form-urlencoded
+--------------------------------------------------
+2024-10-29 15:48:23 - POST Data
+Data: Array
+(
+    [code] => PAYMENT_SUCCESS
+    [merchantId] => M227UK7AFV4L0
+    [transactionId] => 3918
+    [amount] => 100
+    [providerReferenceId] => T2410291548154684659366
+    [merchantOrderId] => 3918
+    [param1] => na
+    [param2] => na
+    [param3] => na
+    [param4] => na
+    [param5] => na
+    [param6] => na
+    [param7] => na
+    [param8] => na
+    [param9] => na
+    [param10] => na
+    [param11] => na
+    [param12] => na
+    [param13] => na
+    [param14] => na
+    [param15] => na
+    [param16] => na
+    [param17] => na
+    [param18] => na
+    [param19] => na
+    [param20] => na
+    [checksum] => d719974ece20148d6acdc1eec8311872dcbfdbb9125a6c81d4761524c6c7e4c7###1
+)
+
+--------------------------------------------------
+2024-10-29 15:48:23 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:48:23 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [Content-Length] => 435
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [origin] => https://mercury-t2.phonepe.com
+    [Content-Type] => application/x-www-form-urlencoded
+    [upgrade-insecure-requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [sec-fetch-site] => cross-site
+    [sec-fetch-mode] => navigate
+    [sec-fetch-dest] => document
+    [Referer] => https://mercury-t2.phonepe.com/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [priority] => u=0, i
+)
+
+--------------------------------------------------
+2024-10-29 15:48:23 - Raw input received
+Data: code=PAYMENT_SUCCESS&merchantId=M227UK7AFV4L0&transactionId=3918&amount=100&providerReferenceId=T2410291548154684659366&merchantOrderId=3918&param1=na&param2=na&param3=na&param4=na&param5=na&param6=na&param7=na&param8=na&param9=na&param10=na&param11=na&param12=na&param13=na&param14=na&param15=na&param16=na&param17=na&param18=na&param19=na&param20=na&checksum=d719974ece20148d6acdc1eec8311872dcbfdbb9125a6c81d4761524c6c7e4c7%23%23%231
+--------------------------------------------------
+2024-10-29 15:48:23 - Converted URL-encoded data to JSON
+Data: {"code":"PAYMENT_SUCCESS","merchantId":"M227UK7AFV4L0","transactionId":"3918","amount":"100","providerReferenceId":"T2410291548154684659366","merchantOrderId":"3918","param1":"na","param2":"na","param3":"na","param4":"na","param5":"na","param6":"na","param7":"na","param8":"na","param9":"na","param10":"na","param11":"na","param12":"na","param13":"na","param14":"na","param15":"na","param16":"na","param17":"na","param18":"na","param19":"na","param20":"na","checksum":"d719974ece20148d6acdc1eec8311872dcbfdbb9125a6c81d4761524c6c7e4c7###1"}
+--------------------------------------------------
+2024-10-29 15:48:23 - Decoded response
+Data: Array
+(
+    [code] => PAYMENT_SUCCESS
+    [merchantId] => M227UK7AFV4L0
+    [transactionId] => 3918
+    [amount] => 100
+    [providerReferenceId] => T2410291548154684659366
+    [merchantOrderId] => 3918
+    [param1] => na
+    [param2] => na
+    [param3] => na
+    [param4] => na
+    [param5] => na
+    [param6] => na
+    [param7] => na
+    [param8] => na
+    [param9] => na
+    [param10] => na
+    [param11] => na
+    [param12] => na
+    [param13] => na
+    [param14] => na
+    [param15] => na
+    [param16] => na
+    [param17] => na
+    [param18] => na
+    [param19] => na
+    [param20] => na
+    [checksum] => d719974ece20148d6acdc1eec8311872dcbfdbb9125a6c81d4761524c6c7e4c7###1
+)
+
+--------------------------------------------------
+2024-10-29 15:48:23 - Missing required data
+Data: Array
+(
+    [transactionId] => 3918
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-29 15:51:58 - Callback handler initialized
+--------------------------------------------------
+2024-10-29 15:51:58 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-29 15:51:58 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-29 15:51:58 - HTTP_USER_AGENT
+Data: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+--------------------------------------------------
+2024-10-29 15:51:58 - CONTENT_TYPE
+Data: application/x-www-form-urlencoded
+--------------------------------------------------
+2024-10-29 15:51:58 - POST Data
+Data: Array
+(
+    [code] => PAYMENT_SUCCESS
+    [merchantId] => M227UK7AFV4L0
+    [transactionId] => 3918
+    [amount] => 100
+    [providerReferenceId] => T2410291548154684659366
+    [merchantOrderId] => 3918
+    [param1] => na
+    [param2] => na
+    [param3] => na
+    [param4] => na
+    [param5] => na
+    [param6] => na
+    [param7] => na
+    [param8] => na
+    [param9] => na
+    [param10] => na
+    [param11] => na
+    [param12] => na
+    [param13] => na
+    [param14] => na
+    [param15] => na
+    [param16] => na
+    [param17] => na
+    [param18] => na
+    [param19] => na
+    [param20] => na
+    [checksum] => d719974ece20148d6acdc1eec8311872dcbfdbb9125a6c81d4761524c6c7e4c7###1
+)
+
+--------------------------------------------------
+2024-10-29 15:51:58 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:51:58 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [Content-Length] => 435
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [upgrade-insecure-requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+    [origin] => https://mercury-t2.phonepe.com
+    [Content-Type] => application/x-www-form-urlencoded
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [sec-fetch-site] => cross-site
+    [sec-fetch-mode] => navigate
+    [sec-fetch-user] => ?1
+    [sec-fetch-dest] => document
+    [Referer] => https://mercury-t2.phonepe.com/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [priority] => u=0, i
+)
+
+--------------------------------------------------
+2024-10-29 15:51:58 - Raw input received
+Data: code=PAYMENT_SUCCESS&merchantId=M227UK7AFV4L0&transactionId=3918&amount=100&providerReferenceId=T2410291548154684659366&merchantOrderId=3918&param1=na&param2=na&param3=na&param4=na&param5=na&param6=na&param7=na&param8=na&param9=na&param10=na&param11=na&param12=na&param13=na&param14=na&param15=na&param16=na&param17=na&param18=na&param19=na&param20=na&checksum=d719974ece20148d6acdc1eec8311872dcbfdbb9125a6c81d4761524c6c7e4c7%23%23%231
+--------------------------------------------------
+2024-10-29 15:51:58 - Converted URL-encoded data to JSON
+Data: {"code":"PAYMENT_SUCCESS","merchantId":"M227UK7AFV4L0","transactionId":"3918","amount":"100","providerReferenceId":"T2410291548154684659366","merchantOrderId":"3918","param1":"na","param2":"na","param3":"na","param4":"na","param5":"na","param6":"na","param7":"na","param8":"na","param9":"na","param10":"na","param11":"na","param12":"na","param13":"na","param14":"na","param15":"na","param16":"na","param17":"na","param18":"na","param19":"na","param20":"na","checksum":"d719974ece20148d6acdc1eec8311872dcbfdbb9125a6c81d4761524c6c7e4c7###1"}
+--------------------------------------------------
+2024-10-29 15:51:58 - Decoded response
+Data: Array
+(
+    [code] => PAYMENT_SUCCESS
+    [merchantId] => M227UK7AFV4L0
+    [transactionId] => 3918
+    [amount] => 100
+    [providerReferenceId] => T2410291548154684659366
+    [merchantOrderId] => 3918
+    [param1] => na
+    [param2] => na
+    [param3] => na
+    [param4] => na
+    [param5] => na
+    [param6] => na
+    [param7] => na
+    [param8] => na
+    [param9] => na
+    [param10] => na
+    [param11] => na
+    [param12] => na
+    [param13] => na
+    [param14] => na
+    [param15] => na
+    [param16] => na
+    [param17] => na
+    [param18] => na
+    [param19] => na
+    [param20] => na
+    [checksum] => d719974ece20148d6acdc1eec8311872dcbfdbb9125a6c81d4761524c6c7e4c7###1
+)
+
+--------------------------------------------------
+2024-10-29 15:51:58 - Missing required data
+Data: Array
+(
+    [transactionId] => 3918
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-29 15:52:02 - Callback handler initialized
+--------------------------------------------------
+2024-10-29 15:52:02 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-29 15:52:02 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-29 15:52:02 - HTTP_USER_AGENT
+Data: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+--------------------------------------------------
+2024-10-29 15:52:02 - CONTENT_TYPE
+Data: application/x-www-form-urlencoded
+--------------------------------------------------
+2024-10-29 15:52:02 - POST Data
+Data: Array
+(
+    [code] => PAYMENT_SUCCESS
+    [merchantId] => M227UK7AFV4L0
+    [transactionId] => 3918
+    [amount] => 100
+    [providerReferenceId] => T2410291548154684659366
+    [merchantOrderId] => 3918
+    [param1] => na
+    [param2] => na
+    [param3] => na
+    [param4] => na
+    [param5] => na
+    [param6] => na
+    [param7] => na
+    [param8] => na
+    [param9] => na
+    [param10] => na
+    [param11] => na
+    [param12] => na
+    [param13] => na
+    [param14] => na
+    [param15] => na
+    [param16] => na
+    [param17] => na
+    [param18] => na
+    [param19] => na
+    [param20] => na
+    [checksum] => d719974ece20148d6acdc1eec8311872dcbfdbb9125a6c81d4761524c6c7e4c7###1
+)
+
+--------------------------------------------------
+2024-10-29 15:52:02 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:52:02 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [Content-Length] => 435
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [upgrade-insecure-requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+    [origin] => https://mercury-t2.phonepe.com
+    [Content-Type] => application/x-www-form-urlencoded
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [sec-fetch-site] => cross-site
+    [sec-fetch-mode] => navigate
+    [sec-fetch-user] => ?1
+    [sec-fetch-dest] => document
+    [Referer] => https://mercury-t2.phonepe.com/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [priority] => u=0, i
+)
+
+--------------------------------------------------
+2024-10-29 15:52:02 - Raw input received
+Data: code=PAYMENT_SUCCESS&merchantId=M227UK7AFV4L0&transactionId=3918&amount=100&providerReferenceId=T2410291548154684659366&merchantOrderId=3918&param1=na&param2=na&param3=na&param4=na&param5=na&param6=na&param7=na&param8=na&param9=na&param10=na&param11=na&param12=na&param13=na&param14=na&param15=na&param16=na&param17=na&param18=na&param19=na&param20=na&checksum=d719974ece20148d6acdc1eec8311872dcbfdbb9125a6c81d4761524c6c7e4c7%23%23%231
+--------------------------------------------------
+2024-10-29 15:52:02 - Converted URL-encoded data to JSON
+Data: {"code":"PAYMENT_SUCCESS","merchantId":"M227UK7AFV4L0","transactionId":"3918","amount":"100","providerReferenceId":"T2410291548154684659366","merchantOrderId":"3918","param1":"na","param2":"na","param3":"na","param4":"na","param5":"na","param6":"na","param7":"na","param8":"na","param9":"na","param10":"na","param11":"na","param12":"na","param13":"na","param14":"na","param15":"na","param16":"na","param17":"na","param18":"na","param19":"na","param20":"na","checksum":"d719974ece20148d6acdc1eec8311872dcbfdbb9125a6c81d4761524c6c7e4c7###1"}
+--------------------------------------------------
+2024-10-29 15:52:02 - Decoded response
+Data: Array
+(
+    [code] => PAYMENT_SUCCESS
+    [merchantId] => M227UK7AFV4L0
+    [transactionId] => 3918
+    [amount] => 100
+    [providerReferenceId] => T2410291548154684659366
+    [merchantOrderId] => 3918
+    [param1] => na
+    [param2] => na
+    [param3] => na
+    [param4] => na
+    [param5] => na
+    [param6] => na
+    [param7] => na
+    [param8] => na
+    [param9] => na
+    [param10] => na
+    [param11] => na
+    [param12] => na
+    [param13] => na
+    [param14] => na
+    [param15] => na
+    [param16] => na
+    [param17] => na
+    [param18] => na
+    [param19] => na
+    [param20] => na
+    [checksum] => d719974ece20148d6acdc1eec8311872dcbfdbb9125a6c81d4761524c6c7e4c7###1
+)
+
+--------------------------------------------------
+2024-10-29 15:52:02 - Missing required data
+Data: Array
+(
+    [transactionId] => 3918
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-29 15:52:21 - Callback handler initialized
+--------------------------------------------------
+2024-10-29 15:52:21 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-29 15:52:21 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-29 15:52:21 - HTTP_USER_AGENT
+Data: okhttp/4.11.0-PPE/hermes-1_3_837
+--------------------------------------------------
+2024-10-29 15:52:21 - CONTENT_TYPE
+Data: application/json
+--------------------------------------------------
+2024-10-29 15:52:21 - POST Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:52:21 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:52:21 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [x-verify] => 1f8d279b592b1f6bc494ab38b2af121ce3280f8eada7151bd37fab2655760bf8###1
+    [Content-Type] => application/json
+    [Content-Length] => 595
+    [Accept-Encoding] => gzip
+    [User-Agent] => okhttp/4.11.0-PPE/hermes-1_3_837
+)
+
+--------------------------------------------------
+2024-10-29 15:52:21 - Raw input received
+Data: {"response":"eyJzdWNjZXNzIjp0cnVlLCJjb2RlIjoiUEFZTUVOVF9TVUNDRVNTIiwibWVzc2FnZSI6IllvdXIgcGF5bWVudCBpcyBzdWNjZXNzZnVsLiIsImRhdGEiOnsibWVyY2hhbnRJZCI6Ik0yMjdVSzdBRlY0TDAiLCJtZXJjaGFudFRyYW5zYWN0aW9uSWQiOiI2NDM0IiwidHJhbnNhY3Rpb25JZCI6IlQyNDEwMjkxNTUyMTY3MTQwMzI5NDYxIiwiYW1vdW50IjoxMDAsInN0YXRlIjoiQ09NUExFVEVEIiwicmVzcG9uc2VDb2RlIjoiU1VDQ0VTUyIsInBheW1lbnRJbnN0cnVtZW50Ijp7InR5cGUiOiJVUEkiLCJ1dHIiOiI4MTEwNDI3ODIzOTYiLCJ1cGlUcmFuc2FjdGlvbklkIjoiWUJMOTdhY2JjNmE2MTkzNDg0OWE2ZDQxZDliY2Q4MDI3NWQiLCJjYXJkTmV0d29yayI6bnVsbCwiYWNjb3VudFR5cGUiOiJTQVZJTkdTIn0sImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ=="}
+--------------------------------------------------
+2024-10-29 15:52:21 - Decoded response
+Data: Array
+(
+    [response] => eyJzdWNjZXNzIjp0cnVlLCJjb2RlIjoiUEFZTUVOVF9TVUNDRVNTIiwibWVzc2FnZSI6IllvdXIgcGF5bWVudCBpcyBzdWNjZXNzZnVsLiIsImRhdGEiOnsibWVyY2hhbnRJZCI6Ik0yMjdVSzdBRlY0TDAiLCJtZXJjaGFudFRyYW5zYWN0aW9uSWQiOiI2NDM0IiwidHJhbnNhY3Rpb25JZCI6IlQyNDEwMjkxNTUyMTY3MTQwMzI5NDYxIiwiYW1vdW50IjoxMDAsInN0YXRlIjoiQ09NUExFVEVEIiwicmVzcG9uc2VDb2RlIjoiU1VDQ0VTUyIsInBheW1lbnRJbnN0cnVtZW50Ijp7InR5cGUiOiJVUEkiLCJ1dHIiOiI4MTEwNDI3ODIzOTYiLCJ1cGlUcmFuc2FjdGlvbklkIjoiWUJMOTdhY2JjNmE2MTkzNDg0OWE2ZDQxZDliY2Q4MDI3NWQiLCJjYXJkTmV0d29yayI6bnVsbCwiYWNjb3VudFR5cGUiOiJTQVZJTkdTIn0sImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ==
+)
+
+--------------------------------------------------
+2024-10-29 15:52:21 - Decoded base64 payment data
+Data: Array
+(
+    [success] => 1
+    [code] => PAYMENT_SUCCESS
+    [message] => Your payment is successful.
+    [data] => Array
+        (
+            [merchantId] => M227UK7AFV4L0
+            [merchantTransactionId] => 6434
+            [transactionId] => T2410291552167140329461
+            [amount] => 100
+            [state] => COMPLETED
+            [responseCode] => SUCCESS
+            [paymentInstrument] => Array
+                (
+                    [type] => UPI
+                    [utr] => 811042782396
+                    [upiTransactionId] => YBL97acbc6a61934849a6d41d9bcd80275d
+                    [cardNetwork] => 
+                    [accountType] => SAVINGS
+                )
+
+            [feesContext] => Array
+                (
+                    [amount] => 0
+                )
+
+        )
+
+)
+
+--------------------------------------------------
+2024-10-29 15:52:21 - Missing required data
+Data: Array
+(
+    [transactionId] => 
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-29 15:53:44 - Callback handler initialized
+--------------------------------------------------
+2024-10-29 15:53:44 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-29 15:53:44 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-29 15:53:44 - HTTP_USER_AGENT
+Data: okhttp/4.11.0-PPE/hermes-1_3_837
+--------------------------------------------------
+2024-10-29 15:53:44 - CONTENT_TYPE
+Data: application/json
+--------------------------------------------------
+2024-10-29 15:53:44 - POST Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:53:44 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:53:44 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [x-verify] => 1f10729f65aa5bb4e52e57155a641d9888499727d593c7ed743519cc97c20939###1
+    [Content-Type] => application/json
+    [Content-Length] => 595
+    [Accept-Encoding] => gzip
+    [User-Agent] => okhttp/4.11.0-PPE/hermes-1_3_837
+)
+
+--------------------------------------------------
+2024-10-29 15:53:44 - Raw input received
+Data: {"response":"eyJzdWNjZXNzIjp0cnVlLCJjb2RlIjoiUEFZTUVOVF9TVUNDRVNTIiwibWVzc2FnZSI6IllvdXIgcGF5bWVudCBpcyBzdWNjZXNzZnVsLiIsImRhdGEiOnsibWVyY2hhbnRJZCI6Ik0yMjdVSzdBRlY0TDAiLCJtZXJjaGFudFRyYW5zYWN0aW9uSWQiOiI1MTk1IiwidHJhbnNhY3Rpb25JZCI6IlQyNDEwMjkxNTUzNDA1NjUyMDA2OTQ4IiwiYW1vdW50IjoxMDAsInN0YXRlIjoiQ09NUExFVEVEIiwicmVzcG9uc2VDb2RlIjoiU1VDQ0VTUyIsInBheW1lbnRJbnN0cnVtZW50Ijp7InR5cGUiOiJVUEkiLCJ1dHIiOiI4MDcyNjY5MTE1MDAiLCJ1cGlUcmFuc2FjdGlvbklkIjoiWUJMZWZmNTg5MzQyN2RkNGY2YThiZmRmYTdmNTNkZDcxMjQiLCJjYXJkTmV0d29yayI6bnVsbCwiYWNjb3VudFR5cGUiOiJTQVZJTkdTIn0sImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ=="}
+--------------------------------------------------
+2024-10-29 15:53:44 - Decoded response
+Data: Array
+(
+    [response] => eyJzdWNjZXNzIjp0cnVlLCJjb2RlIjoiUEFZTUVOVF9TVUNDRVNTIiwibWVzc2FnZSI6IllvdXIgcGF5bWVudCBpcyBzdWNjZXNzZnVsLiIsImRhdGEiOnsibWVyY2hhbnRJZCI6Ik0yMjdVSzdBRlY0TDAiLCJtZXJjaGFudFRyYW5zYWN0aW9uSWQiOiI1MTk1IiwidHJhbnNhY3Rpb25JZCI6IlQyNDEwMjkxNTUzNDA1NjUyMDA2OTQ4IiwiYW1vdW50IjoxMDAsInN0YXRlIjoiQ09NUExFVEVEIiwicmVzcG9uc2VDb2RlIjoiU1VDQ0VTUyIsInBheW1lbnRJbnN0cnVtZW50Ijp7InR5cGUiOiJVUEkiLCJ1dHIiOiI4MDcyNjY5MTE1MDAiLCJ1cGlUcmFuc2FjdGlvbklkIjoiWUJMZWZmNTg5MzQyN2RkNGY2YThiZmRmYTdmNTNkZDcxMjQiLCJjYXJkTmV0d29yayI6bnVsbCwiYWNjb3VudFR5cGUiOiJTQVZJTkdTIn0sImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ==
+)
+
+--------------------------------------------------
+2024-10-29 15:53:44 - Decoded base64 payment data
+Data: Array
+(
+    [success] => 1
+    [code] => PAYMENT_SUCCESS
+    [message] => Your payment is successful.
+    [data] => Array
+        (
+            [merchantId] => M227UK7AFV4L0
+            [merchantTransactionId] => 5195
+            [transactionId] => T2410291553405652006948
+            [amount] => 100
+            [state] => COMPLETED
+            [responseCode] => SUCCESS
+            [paymentInstrument] => Array
+                (
+                    [type] => UPI
+                    [utr] => 807266911500
+                    [upiTransactionId] => YBLeff5893427dd4f6a8bfdfa7f53dd7124
+                    [cardNetwork] => 
+                    [accountType] => SAVINGS
+                )
+
+            [feesContext] => Array
+                (
+                    [amount] => 0
+                )
+
+        )
+
+)
+
+--------------------------------------------------
+2024-10-29 15:53:44 - Missing required data
+Data: Array
+(
+    [transactionId] => 
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-29 15:55:52 - Callback handler initialized
+--------------------------------------------------
+2024-10-29 15:55:52 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-29 15:55:52 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-29 15:55:52 - HTTP_USER_AGENT
+Data: okhttp/4.11.0-PPE/hermes-1_3_837
+--------------------------------------------------
+2024-10-29 15:55:52 - CONTENT_TYPE
+Data: application/json
+--------------------------------------------------
+2024-10-29 15:55:52 - POST Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:55:52 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:55:52 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [x-verify] => 7720e40df75f24ffd913fd74cc6e40764a9905a5deea3970c3072fc21f810b67###1
+    [Content-Type] => application/json
+    [Content-Length] => 595
+    [Accept-Encoding] => gzip
+    [User-Agent] => okhttp/4.11.0-PPE/hermes-1_3_837
+)
+
+--------------------------------------------------
+2024-10-29 15:55:52 - Raw input received
+Data: {"response":"eyJzdWNjZXNzIjp0cnVlLCJjb2RlIjoiUEFZTUVOVF9TVUNDRVNTIiwibWVzc2FnZSI6IllvdXIgcGF5bWVudCBpcyBzdWNjZXNzZnVsLiIsImRhdGEiOnsibWVyY2hhbnRJZCI6Ik0yMjdVSzdBRlY0TDAiLCJtZXJjaGFudFRyYW5zYWN0aW9uSWQiOiI2NjI3IiwidHJhbnNhY3Rpb25JZCI6IlQyNDEwMjkxNTU1NDc4NjI5NTIwODYzIiwiYW1vdW50IjoxMDAsInN0YXRlIjoiQ09NUExFVEVEIiwicmVzcG9uc2VDb2RlIjoiU1VDQ0VTUyIsInBheW1lbnRJbnN0cnVtZW50Ijp7InR5cGUiOiJVUEkiLCJ1dHIiOiIxMjI1NTA5NzkyNzMiLCJ1cGlUcmFuc2FjdGlvbklkIjoiWUJMMmYzMWNlNmFhMjgxNDMxODk4MWE4OTNiNThiYmNmYzAiLCJjYXJkTmV0d29yayI6bnVsbCwiYWNjb3VudFR5cGUiOiJTQVZJTkdTIn0sImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ=="}
+--------------------------------------------------
+2024-10-29 15:55:52 - Decoded response
+Data: Array
+(
+    [response] => eyJzdWNjZXNzIjp0cnVlLCJjb2RlIjoiUEFZTUVOVF9TVUNDRVNTIiwibWVzc2FnZSI6IllvdXIgcGF5bWVudCBpcyBzdWNjZXNzZnVsLiIsImRhdGEiOnsibWVyY2hhbnRJZCI6Ik0yMjdVSzdBRlY0TDAiLCJtZXJjaGFudFRyYW5zYWN0aW9uSWQiOiI2NjI3IiwidHJhbnNhY3Rpb25JZCI6IlQyNDEwMjkxNTU1NDc4NjI5NTIwODYzIiwiYW1vdW50IjoxMDAsInN0YXRlIjoiQ09NUExFVEVEIiwicmVzcG9uc2VDb2RlIjoiU1VDQ0VTUyIsInBheW1lbnRJbnN0cnVtZW50Ijp7InR5cGUiOiJVUEkiLCJ1dHIiOiIxMjI1NTA5NzkyNzMiLCJ1cGlUcmFuc2FjdGlvbklkIjoiWUJMMmYzMWNlNmFhMjgxNDMxODk4MWE4OTNiNThiYmNmYzAiLCJjYXJkTmV0d29yayI6bnVsbCwiYWNjb3VudFR5cGUiOiJTQVZJTkdTIn0sImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ==
+)
+
+--------------------------------------------------
+2024-10-29 15:55:52 - Decoded base64 payment data
+Data: Array
+(
+    [success] => 1
+    [code] => PAYMENT_SUCCESS
+    [message] => Your payment is successful.
+    [data] => Array
+        (
+            [merchantId] => M227UK7AFV4L0
+            [merchantTransactionId] => 6627
+            [transactionId] => T2410291555478629520863
+            [amount] => 100
+            [state] => COMPLETED
+            [responseCode] => SUCCESS
+            [paymentInstrument] => Array
+                (
+                    [type] => UPI
+                    [utr] => 122550979273
+                    [upiTransactionId] => YBL2f31ce6aa2814318981a893b58bbcfc0
+                    [cardNetwork] => 
+                    [accountType] => SAVINGS
+                )
+
+            [feesContext] => Array
+                (
+                    [amount] => 0
+                )
+
+        )
+
+)
+
+--------------------------------------------------
+2024-10-29 15:55:52 - Missing required data
+Data: Array
+(
+    [transactionId] => 
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-29 15:56:30 - Callback handler initialized
+--------------------------------------------------
+2024-10-29 15:56:30 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-29 15:56:30 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-29 15:56:30 - HTTP_USER_AGENT
+Data: okhttp/4.11.0-PPE/hermes-1_3_837
+--------------------------------------------------
+2024-10-29 15:56:30 - CONTENT_TYPE
+Data: application/json
+--------------------------------------------------
+2024-10-29 15:56:30 - POST Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:56:30 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 15:56:30 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [x-verify] => 126ca0bdfcac33911a9e010077aef029126d9b276002f60df4232603e79d23c9###1
+    [Content-Type] => application/json
+    [Content-Length] => 595
+    [Accept-Encoding] => gzip
+    [User-Agent] => okhttp/4.11.0-PPE/hermes-1_3_837
+)
+
+--------------------------------------------------
+2024-10-29 15:56:30 - Raw input received
+Data: {"response":"eyJzdWNjZXNzIjp0cnVlLCJjb2RlIjoiUEFZTUVOVF9TVUNDRVNTIiwibWVzc2FnZSI6IllvdXIgcGF5bWVudCBpcyBzdWNjZXNzZnVsLiIsImRhdGEiOnsibWVyY2hhbnRJZCI6Ik0yMjdVSzdBRlY0TDAiLCJtZXJjaGFudFRyYW5zYWN0aW9uSWQiOiI1MDU2IiwidHJhbnNhY3Rpb25JZCI6IlQyNDEwMjkxNTU2MjY0MjU2ODI2NzcwIiwiYW1vdW50IjoxMDAsInN0YXRlIjoiQ09NUExFVEVEIiwicmVzcG9uc2VDb2RlIjoiU1VDQ0VTUyIsInBheW1lbnRJbnN0cnVtZW50Ijp7InR5cGUiOiJVUEkiLCJ1dHIiOiIyODcxMjc5NTU2ODQiLCJ1cGlUcmFuc2FjdGlvbklkIjoiWUJMMzQ5ZGVlZGQ5MzQ5NDJlOGJhYjZhYzhlMTQyMzgwZjciLCJjYXJkTmV0d29yayI6bnVsbCwiYWNjb3VudFR5cGUiOiJTQVZJTkdTIn0sImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ=="}
+--------------------------------------------------
+2024-10-29 15:56:30 - Decoded response
+Data: Array
+(
+    [response] => eyJzdWNjZXNzIjp0cnVlLCJjb2RlIjoiUEFZTUVOVF9TVUNDRVNTIiwibWVzc2FnZSI6IllvdXIgcGF5bWVudCBpcyBzdWNjZXNzZnVsLiIsImRhdGEiOnsibWVyY2hhbnRJZCI6Ik0yMjdVSzdBRlY0TDAiLCJtZXJjaGFudFRyYW5zYWN0aW9uSWQiOiI1MDU2IiwidHJhbnNhY3Rpb25JZCI6IlQyNDEwMjkxNTU2MjY0MjU2ODI2NzcwIiwiYW1vdW50IjoxMDAsInN0YXRlIjoiQ09NUExFVEVEIiwicmVzcG9uc2VDb2RlIjoiU1VDQ0VTUyIsInBheW1lbnRJbnN0cnVtZW50Ijp7InR5cGUiOiJVUEkiLCJ1dHIiOiIyODcxMjc5NTU2ODQiLCJ1cGlUcmFuc2FjdGlvbklkIjoiWUJMMzQ5ZGVlZGQ5MzQ5NDJlOGJhYjZhYzhlMTQyMzgwZjciLCJjYXJkTmV0d29yayI6bnVsbCwiYWNjb3VudFR5cGUiOiJTQVZJTkdTIn0sImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ==
+)
+
+--------------------------------------------------
+2024-10-29 15:56:30 - Decoded base64 payment data
+Data: Array
+(
+    [success] => 1
+    [code] => PAYMENT_SUCCESS
+    [message] => Your payment is successful.
+    [data] => Array
+        (
+            [merchantId] => M227UK7AFV4L0
+            [merchantTransactionId] => 5056
+            [transactionId] => T2410291556264256826770
+            [amount] => 100
+            [state] => COMPLETED
+            [responseCode] => SUCCESS
+            [paymentInstrument] => Array
+                (
+                    [type] => UPI
+                    [utr] => 287127955684
+                    [upiTransactionId] => YBL349deedd934942e8bab6ac8e142380f7
+                    [cardNetwork] => 
+                    [accountType] => SAVINGS
+                )
+
+            [feesContext] => Array
+                (
+                    [amount] => 0
+                )
+
+        )
+
+)
+
+--------------------------------------------------
+2024-10-29 15:56:30 - Missing required data
+Data: Array
+(
+    [transactionId] => 
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-29 17:22:32 - Callback handler initialized
+--------------------------------------------------
+2024-10-29 17:22:32 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-29 17:22:32 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-29 17:22:32 - HTTP_USER_AGENT
+Data: okhttp/4.11.0-PPE/hermes-1_3_837
+--------------------------------------------------
+2024-10-29 17:22:32 - CONTENT_TYPE
+Data: application/json
+--------------------------------------------------
+2024-10-29 17:22:32 - POST Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 17:22:32 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 17:22:32 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [x-verify] => 63ea2e4a4f3b2bf1c8b05272616d2fc1631767bb53f5e9018c12897a80a36e52###1
+    [Content-Type] => application/json
+    [Content-Length] => 383
+    [Accept-Encoding] => gzip
+    [User-Agent] => okhttp/4.11.0-PPE/hermes-1_3_837
+)
+
+--------------------------------------------------
+2024-10-29 17:22:32 - Raw input received
+Data: {"response":"eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiMTIwMSIsInRyYW5zYWN0aW9uSWQiOm51bGwsImFtb3VudCI6MjUwMDAwLCJzdGF0ZSI6IkZBSUxFRCIsInJlc3BvbnNlQ29kZSI6IlRYTl9BVVRPX0ZBSUxFRCIsInBheW1lbnRJbnN0cnVtZW50IjpudWxsLCJmZWVzQ29udGV4dCI6eyJhbW91bnQiOjB9fX0="}
+--------------------------------------------------
+2024-10-29 17:22:32 - Decoded response
+Data: Array
+(
+    [response] => eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiMTIwMSIsInRyYW5zYWN0aW9uSWQiOm51bGwsImFtb3VudCI6MjUwMDAwLCJzdGF0ZSI6IkZBSUxFRCIsInJlc3BvbnNlQ29kZSI6IlRYTl9BVVRPX0ZBSUxFRCIsInBheW1lbnRJbnN0cnVtZW50IjpudWxsLCJmZWVzQ29udGV4dCI6eyJhbW91bnQiOjB9fX0=
+)
+
+--------------------------------------------------
+2024-10-29 17:22:32 - Decoded base64 payment data
+Data: Array
+(
+    [success] => 
+    [code] => PAYMENT_ERROR
+    [message] => Payment Failed
+    [data] => Array
+        (
+            [merchantId] => M227UK7AFV4L0
+            [merchantTransactionId] => 1201
+            [transactionId] => 
+            [amount] => 250000
+            [state] => FAILED
+            [responseCode] => TXN_AUTO_FAILED
+            [paymentInstrument] => 
+            [feesContext] => Array
+                (
+                    [amount] => 0
+                )
+
+        )
+
+)
+
+--------------------------------------------------
+2024-10-29 17:22:32 - Missing required data
+Data: Array
+(
+    [transactionId] => 
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-29 17:23:26 - Callback handler initialized
+--------------------------------------------------
+2024-10-29 17:23:26 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-29 17:23:26 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-29 17:23:26 - HTTP_USER_AGENT
+Data: okhttp/4.11.0-PPE/hermes-1_3_837
+--------------------------------------------------
+2024-10-29 17:23:26 - CONTENT_TYPE
+Data: application/json
+--------------------------------------------------
+2024-10-29 17:23:26 - POST Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 17:23:26 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-29 17:23:26 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [x-verify] => 30212d24abb241d35a42dd9e870e5e96d0abd6d9cf7d4b6a87d92460d6606630###1
+    [Content-Type] => application/json
+    [Content-Length] => 379
+    [Accept-Encoding] => gzip
+    [User-Agent] => okhttp/4.11.0-PPE/hermes-1_3_837
+)
+
+--------------------------------------------------
+2024-10-29 17:23:26 - Raw input received
+Data: {"response":"eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiNDkwNiIsInRyYW5zYWN0aW9uSWQiOm51bGwsImFtb3VudCI6MTAwLCJzdGF0ZSI6IkZBSUxFRCIsInJlc3BvbnNlQ29kZSI6IlRYTl9BVVRPX0ZBSUxFRCIsInBheW1lbnRJbnN0cnVtZW50IjpudWxsLCJmZWVzQ29udGV4dCI6eyJhbW91bnQiOjB9fX0="}
+--------------------------------------------------
+2024-10-29 17:23:26 - Decoded response
+Data: Array
+(
+    [response] => eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiNDkwNiIsInRyYW5zYWN0aW9uSWQiOm51bGwsImFtb3VudCI6MTAwLCJzdGF0ZSI6IkZBSUxFRCIsInJlc3BvbnNlQ29kZSI6IlRYTl9BVVRPX0ZBSUxFRCIsInBheW1lbnRJbnN0cnVtZW50IjpudWxsLCJmZWVzQ29udGV4dCI6eyJhbW91bnQiOjB9fX0=
+)
+
+--------------------------------------------------
+2024-10-29 17:23:26 - Decoded base64 payment data
+Data: Array
+(
+    [success] => 
+    [code] => PAYMENT_ERROR
+    [message] => Payment Failed
+    [data] => Array
+        (
+            [merchantId] => M227UK7AFV4L0
+            [merchantTransactionId] => 4906
+            [transactionId] => 
+            [amount] => 100
+            [state] => FAILED
+            [responseCode] => TXN_AUTO_FAILED
+            [paymentInstrument] => 
+            [feesContext] => Array
+                (
+                    [amount] => 0
+                )
+
+        )
+
+)
+
+--------------------------------------------------
+2024-10-29 17:23:26 - Missing required data
+Data: Array
+(
+    [transactionId] => 
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-30 15:45:22 - Callback handler initialized
+--------------------------------------------------
+2024-10-30 15:45:22 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-30 15:45:22 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-30 15:45:22 - HTTP_USER_AGENT
+Data: okhttp/4.11.0-PPE/hermes-1_3_837
+--------------------------------------------------
+2024-10-30 15:45:22 - CONTENT_TYPE
+Data: application/json
+--------------------------------------------------
+2024-10-30 15:45:22 - POST Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-30 15:45:22 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-30 15:45:22 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [x-verify] => 094bc7d5c97ed78d96a2f8a0a239029aeadff44326626f8783507e26160458c1###1
+    [Content-Type] => application/json
+    [Content-Length] => 411
+    [Accept-Encoding] => gzip
+    [User-Agent] => okhttp/4.11.0-PPE/hermes-1_3_837
+)
+
+--------------------------------------------------
+2024-10-30 15:45:22 - Raw input received
+Data: {"response":"eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiMzM1NSIsInRyYW5zYWN0aW9uSWQiOiJUMjQxMDMwMTU0NTIyMzEwMjM4MDczMiIsImFtb3VudCI6OTkwMCwic3RhdGUiOiJGQUlMRUQiLCJyZXNwb25zZUNvZGUiOiJSRVFVRVNUX1RJTUVfT1VUIiwicGF5bWVudEluc3RydW1lbnQiOm51bGwsImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ=="}
+--------------------------------------------------
+2024-10-30 15:45:22 - Decoded response
+Data: Array
+(
+    [response] => eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiMzM1NSIsInRyYW5zYWN0aW9uSWQiOiJUMjQxMDMwMTU0NTIyMzEwMjM4MDczMiIsImFtb3VudCI6OTkwMCwic3RhdGUiOiJGQUlMRUQiLCJyZXNwb25zZUNvZGUiOiJSRVFVRVNUX1RJTUVfT1VUIiwicGF5bWVudEluc3RydW1lbnQiOm51bGwsImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ==
+)
+
+--------------------------------------------------
+2024-10-30 15:45:22 - Decoded base64 payment data
+Data: Array
+(
+    [success] => 
+    [code] => PAYMENT_ERROR
+    [message] => Payment Failed
+    [data] => Array
+        (
+            [merchantId] => M227UK7AFV4L0
+            [merchantTransactionId] => 3355
+            [transactionId] => T2410301545223102380732
+            [amount] => 9900
+            [state] => FAILED
+            [responseCode] => REQUEST_TIME_OUT
+            [paymentInstrument] => 
+            [feesContext] => Array
+                (
+                    [amount] => 0
+                )
+
+        )
+
+)
+
+--------------------------------------------------
+2024-10-30 15:45:22 - Missing required data
+Data: Array
+(
+    [transactionId] => 
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-30 16:04:05 - Callback handler initialized
+--------------------------------------------------
+2024-10-30 16:04:05 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-30 16:04:05 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-30 16:04:05 - HTTP_USER_AGENT
+Data: okhttp/4.11.0-PPE/hermes-1_3_837
+--------------------------------------------------
+2024-10-30 16:04:05 - CONTENT_TYPE
+Data: application/json
+--------------------------------------------------
+2024-10-30 16:04:05 - POST Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-30 16:04:05 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-30 16:04:05 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [x-verify] => 3c47183f233cda1998ca1447a1db8d2b22cc55eead451e168c96e10aae0a35f8###1
+    [Content-Type] => application/json
+    [Content-Length] => 379
+    [Accept-Encoding] => gzip
+    [User-Agent] => okhttp/4.11.0-PPE/hermes-1_3_837
+)
+
+--------------------------------------------------
+2024-10-30 16:04:05 - Raw input received
+Data: {"response":"eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiMjQ1OCIsInRyYW5zYWN0aW9uSWQiOm51bGwsImFtb3VudCI6OTkwMCwic3RhdGUiOiJGQUlMRUQiLCJyZXNwb25zZUNvZGUiOiJUWE5fQVVUT19GQUlMRUQiLCJwYXltZW50SW5zdHJ1bWVudCI6bnVsbCwiZmVlc0NvbnRleHQiOnsiYW1vdW50IjowfX19"}
+--------------------------------------------------
+2024-10-30 16:04:05 - Decoded response
+Data: Array
+(
+    [response] => eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiMjQ1OCIsInRyYW5zYWN0aW9uSWQiOm51bGwsImFtb3VudCI6OTkwMCwic3RhdGUiOiJGQUlMRUQiLCJyZXNwb25zZUNvZGUiOiJUWE5fQVVUT19GQUlMRUQiLCJwYXltZW50SW5zdHJ1bWVudCI6bnVsbCwiZmVlc0NvbnRleHQiOnsiYW1vdW50IjowfX19
+)
+
+--------------------------------------------------
+2024-10-30 16:04:05 - Decoded base64 payment data
+Data: Array
+(
+    [success] => 
+    [code] => PAYMENT_ERROR
+    [message] => Payment Failed
+    [data] => Array
+        (
+            [merchantId] => M227UK7AFV4L0
+            [merchantTransactionId] => 2458
+            [transactionId] => 
+            [amount] => 9900
+            [state] => FAILED
+            [responseCode] => TXN_AUTO_FAILED
+            [paymentInstrument] => 
+            [feesContext] => Array
+                (
+                    [amount] => 0
+                )
+
+        )
+
+)
+
+--------------------------------------------------
+2024-10-30 16:04:05 - Missing required data
+Data: Array
+(
+    [transactionId] => 
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-10-30 19:13:02 - Callback handler initialized
+--------------------------------------------------
+2024-10-30 19:13:02 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-10-30 19:13:02 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-10-30 19:13:02 - HTTP_USER_AGENT
+Data: okhttp/4.11.0-PPE/hermes-1_3_837
+--------------------------------------------------
+2024-10-30 19:13:02 - CONTENT_TYPE
+Data: application/json
+--------------------------------------------------
+2024-10-30 19:13:02 - POST Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-30 19:13:02 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-10-30 19:13:02 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [x-verify] => 61372b15f2b096c003791207cab96e66dd01f2743ae33ca1093876a643fe2270###1
+    [Content-Type] => application/json
+    [Content-Length] => 595
+    [Accept-Encoding] => gzip
+    [User-Agent] => okhttp/4.11.0-PPE/hermes-1_3_837
+)
+
+--------------------------------------------------
+2024-10-30 19:13:02 - Raw input received
+Data: {"response":"eyJzdWNjZXNzIjp0cnVlLCJjb2RlIjoiUEFZTUVOVF9TVUNDRVNTIiwibWVzc2FnZSI6IllvdXIgcGF5bWVudCBpcyBzdWNjZXNzZnVsLiIsImRhdGEiOnsibWVyY2hhbnRJZCI6Ik0yMjdVSzdBRlY0TDAiLCJtZXJjaGFudFRyYW5zYWN0aW9uSWQiOiI2NTM2IiwidHJhbnNhY3Rpb25JZCI6IlQyNDEwMzAxOTEyNTY5MTExODU4NDkzIiwiYW1vdW50IjoxMDAsInN0YXRlIjoiQ09NUExFVEVEIiwicmVzcG9uc2VDb2RlIjoiU1VDQ0VTUyIsInBheW1lbnRJbnN0cnVtZW50Ijp7InR5cGUiOiJVUEkiLCJ1dHIiOiI4OTA2NzcyMTAxNzgiLCJ1cGlUcmFuc2FjdGlvbklkIjoiWUJMMTViN2NlNzBmNGE1NDYzNWIyOTYwZDc0NDkwMzU3MTAiLCJjYXJkTmV0d29yayI6bnVsbCwiYWNjb3VudFR5cGUiOiJTQVZJTkdTIn0sImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ=="}
+--------------------------------------------------
+2024-10-30 19:13:02 - Decoded response
+Data: Array
+(
+    [response] => eyJzdWNjZXNzIjp0cnVlLCJjb2RlIjoiUEFZTUVOVF9TVUNDRVNTIiwibWVzc2FnZSI6IllvdXIgcGF5bWVudCBpcyBzdWNjZXNzZnVsLiIsImRhdGEiOnsibWVyY2hhbnRJZCI6Ik0yMjdVSzdBRlY0TDAiLCJtZXJjaGFudFRyYW5zYWN0aW9uSWQiOiI2NTM2IiwidHJhbnNhY3Rpb25JZCI6IlQyNDEwMzAxOTEyNTY5MTExODU4NDkzIiwiYW1vdW50IjoxMDAsInN0YXRlIjoiQ09NUExFVEVEIiwicmVzcG9uc2VDb2RlIjoiU1VDQ0VTUyIsInBheW1lbnRJbnN0cnVtZW50Ijp7InR5cGUiOiJVUEkiLCJ1dHIiOiI4OTA2NzcyMTAxNzgiLCJ1cGlUcmFuc2FjdGlvbklkIjoiWUJMMTViN2NlNzBmNGE1NDYzNWIyOTYwZDc0NDkwMzU3MTAiLCJjYXJkTmV0d29yayI6bnVsbCwiYWNjb3VudFR5cGUiOiJTQVZJTkdTIn0sImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ==
+)
+
+--------------------------------------------------
+2024-10-30 19:13:02 - Decoded base64 payment data
+Data: Array
+(
+    [success] => 1
+    [code] => PAYMENT_SUCCESS
+    [message] => Your payment is successful.
+    [data] => Array
+        (
+            [merchantId] => M227UK7AFV4L0
+            [merchantTransactionId] => 6536
+            [transactionId] => T2410301912569111858493
+            [amount] => 100
+            [state] => COMPLETED
+            [responseCode] => SUCCESS
+            [paymentInstrument] => Array
+                (
+                    [type] => UPI
+                    [utr] => 890677210178
+                    [upiTransactionId] => YBL15b7ce70f4a54635b2960d7449035710
+                    [cardNetwork] => 
+                    [accountType] => SAVINGS
+                )
+
+            [feesContext] => Array
+                (
+                    [amount] => 0
+                )
+
+        )
+
+)
+
+--------------------------------------------------
+2024-10-30 19:13:02 - Missing required data
+Data: Array
+(
+    [transactionId] => 
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-11-04 14:24:31 - Callback handler initialized
+--------------------------------------------------
+2024-11-04 14:24:31 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-11-04 14:24:31 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-11-04 14:24:31 - HTTP_USER_AGENT
+Data: okhttp/4.11.0-PPE/hermes-1_3_837
+--------------------------------------------------
+2024-11-04 14:24:31 - CONTENT_TYPE
+Data: application/json
+--------------------------------------------------
+2024-11-04 14:24:31 - POST Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-11-04 14:24:31 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-11-04 14:24:31 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [x-verify] => 56d3b0c5c4d10fc6f30d6b7400e99f941950dfe085100bebf9d747a017c961a0###1
+    [Content-Type] => application/json
+    [Content-Length] => 411
+    [Accept-Encoding] => gzip
+    [User-Agent] => okhttp/4.11.0-PPE/hermes-1_3_837
+)
+
+--------------------------------------------------
+2024-11-04 14:24:31 - Raw input received
+Data: {"response":"eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiMzg0MSIsInRyYW5zYWN0aW9uSWQiOiJUMjQxMTA0MTQyNDMxNDA5OTYzOTk0NSIsImFtb3VudCI6MzAwMDAsInN0YXRlIjoiRkFJTEVEIiwicmVzcG9uc2VDb2RlIjoiUkVRVUVTVF9USU1FX09VVCIsInBheW1lbnRJbnN0cnVtZW50IjpudWxsLCJmZWVzQ29udGV4dCI6eyJhbW91bnQiOjB9fX0="}
+--------------------------------------------------
+2024-11-04 14:24:31 - Decoded response
+Data: Array
+(
+    [response] => eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiMzg0MSIsInRyYW5zYWN0aW9uSWQiOiJUMjQxMTA0MTQyNDMxNDA5OTYzOTk0NSIsImFtb3VudCI6MzAwMDAsInN0YXRlIjoiRkFJTEVEIiwicmVzcG9uc2VDb2RlIjoiUkVRVUVTVF9USU1FX09VVCIsInBheW1lbnRJbnN0cnVtZW50IjpudWxsLCJmZWVzQ29udGV4dCI6eyJhbW91bnQiOjB9fX0=
+)
+
+--------------------------------------------------
+2024-11-04 14:24:31 - Decoded base64 payment data
+Data: Array
+(
+    [success] => 
+    [code] => PAYMENT_ERROR
+    [message] => Payment Failed
+    [data] => Array
+        (
+            [merchantId] => M227UK7AFV4L0
+            [merchantTransactionId] => 3841
+            [transactionId] => T2411041424314099639945
+            [amount] => 30000
+            [state] => FAILED
+            [responseCode] => REQUEST_TIME_OUT
+            [paymentInstrument] => 
+            [feesContext] => Array
+                (
+                    [amount] => 0
+                )
+
+        )
+
+)
+
+--------------------------------------------------
+2024-11-04 14:24:31 - Missing required data
+Data: Array
+(
+    [transactionId] => 
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-11-11 13:03:17 - Callback handler initialized
+--------------------------------------------------
+2024-11-11 13:03:17 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-11-11 13:03:17 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-11-11 13:03:17 - HTTP_USER_AGENT
+Data: okhttp/4.11.0-PPE/hermes-1_3_841-1
+--------------------------------------------------
+2024-11-11 13:03:17 - CONTENT_TYPE
+Data: application/json
+--------------------------------------------------
+2024-11-11 13:03:17 - POST Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-11-11 13:03:17 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-11-11 13:03:17 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [x-verify] => b9adabf9a7b9780fa076b32f8ffb283d941bf9a1be45ba7cce2d8ccef3374565###1
+    [Content-Type] => application/json
+    [Content-Length] => 383
+    [Accept-Encoding] => gzip
+    [User-Agent] => okhttp/4.11.0-PPE/hermes-1_3_841-1
+)
+
+--------------------------------------------------
+2024-11-11 13:03:17 - Raw input received
+Data: {"response":"eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiNzIwMCIsInRyYW5zYWN0aW9uSWQiOm51bGwsImFtb3VudCI6MjAwMDAsInN0YXRlIjoiRkFJTEVEIiwicmVzcG9uc2VDb2RlIjoiVFhOX0FVVE9fRkFJTEVEIiwicGF5bWVudEluc3RydW1lbnQiOm51bGwsImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ=="}
+--------------------------------------------------
+2024-11-11 13:03:17 - Decoded response
+Data: Array
+(
+    [response] => eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiNzIwMCIsInRyYW5zYWN0aW9uSWQiOm51bGwsImFtb3VudCI6MjAwMDAsInN0YXRlIjoiRkFJTEVEIiwicmVzcG9uc2VDb2RlIjoiVFhOX0FVVE9fRkFJTEVEIiwicGF5bWVudEluc3RydW1lbnQiOm51bGwsImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ==
+)
+
+--------------------------------------------------
+2024-11-11 13:03:17 - Decoded base64 payment data
+Data: Array
+(
+    [success] => 
+    [code] => PAYMENT_ERROR
+    [message] => Payment Failed
+    [data] => Array
+        (
+            [merchantId] => M227UK7AFV4L0
+            [merchantTransactionId] => 7200
+            [transactionId] => 
+            [amount] => 20000
+            [state] => FAILED
+            [responseCode] => TXN_AUTO_FAILED
+            [paymentInstrument] => 
+            [feesContext] => Array
+                (
+                    [amount] => 0
+                )
+
+        )
+
+)
+
+--------------------------------------------------
+2024-11-11 13:03:17 - Missing required data
+Data: Array
+(
+    [transactionId] => 
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-11-11 13:06:52 - Callback handler initialized
+--------------------------------------------------
+2024-11-11 13:06:52 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-11-11 13:06:52 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-11-11 13:06:52 - HTTP_USER_AGENT
+Data: okhttp/4.11.0-PPE/hermes-1_3_841-1
+--------------------------------------------------
+2024-11-11 13:06:52 - CONTENT_TYPE
+Data: application/json
+--------------------------------------------------
+2024-11-11 13:06:52 - POST Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-11-11 13:06:52 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-11-11 13:06:52 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [x-verify] => efd1126d17fd81ec8f570130f4a8799e5e7814ddfef7fadec06de485f9d35f98###1
+    [Content-Type] => application/json
+    [Content-Length] => 571
+    [Accept-Encoding] => gzip
+    [User-Agent] => okhttp/4.11.0-PPE/hermes-1_3_841-1
+)
+
+--------------------------------------------------
+2024-11-11 13:06:52 - Raw input received
+Data: {"response":"eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiMTgzMyIsInRyYW5zYWN0aW9uSWQiOiJUMjQxMTExMTIzNTUxMzc5OTc5OTE2MyIsImFtb3VudCI6MjAwMDAsInN0YXRlIjoiRkFJTEVEIiwicmVzcG9uc2VDb2RlIjoiVFhOX0FVVE9fRkFJTEVEIiwicGF5bWVudEluc3RydW1lbnQiOnsidHlwZSI6Ik5FVEJBTktJTkciLCJwZ1RyYW5zYWN0aW9uSWQiOm51bGwsInBnU2VydmljZVRyYW5zYWN0aW9uSWQiOm51bGwsImJhbmtUcmFuc2FjdGlvbklkIjpudWxsLCJiYW5rSWQiOiJLS0JLIiwiYnJuIjpudWxsfSwiZmVlc0NvbnRleHQiOnsiYW1vdW50IjowfX19"}
+--------------------------------------------------
+2024-11-11 13:06:52 - Decoded response
+Data: Array
+(
+    [response] => eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiMTgzMyIsInRyYW5zYWN0aW9uSWQiOiJUMjQxMTExMTIzNTUxMzc5OTc5OTE2MyIsImFtb3VudCI6MjAwMDAsInN0YXRlIjoiRkFJTEVEIiwicmVzcG9uc2VDb2RlIjoiVFhOX0FVVE9fRkFJTEVEIiwicGF5bWVudEluc3RydW1lbnQiOnsidHlwZSI6Ik5FVEJBTktJTkciLCJwZ1RyYW5zYWN0aW9uSWQiOm51bGwsInBnU2VydmljZVRyYW5zYWN0aW9uSWQiOm51bGwsImJhbmtUcmFuc2FjdGlvbklkIjpudWxsLCJiYW5rSWQiOiJLS0JLIiwiYnJuIjpudWxsfSwiZmVlc0NvbnRleHQiOnsiYW1vdW50IjowfX19
+)
+
+--------------------------------------------------
+2024-11-11 13:06:52 - Decoded base64 payment data
+Data: Array
+(
+    [success] => 
+    [code] => PAYMENT_ERROR
+    [message] => Payment Failed
+    [data] => Array
+        (
+            [merchantId] => M227UK7AFV4L0
+            [merchantTransactionId] => 1833
+            [transactionId] => T2411111235513799799163
+            [amount] => 20000
+            [state] => FAILED
+            [responseCode] => TXN_AUTO_FAILED
+            [paymentInstrument] => Array
+                (
+                    [type] => NETBANKING
+                    [pgTransactionId] => 
+                    [pgServiceTransactionId] => 
+                    [bankTransactionId] => 
+                    [bankId] => KKBK
+                    [brn] => 
+                )
+
+            [feesContext] => Array
+                (
+                    [amount] => 0
+                )
+
+        )
+
+)
+
+--------------------------------------------------
+2024-11-11 13:06:52 - Missing required data
+Data: Array
+(
+    [transactionId] => 
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------
+2024-11-15 16:57:23 - Callback handler initialized
+--------------------------------------------------
+2024-11-15 16:57:23 - REQUEST_METHOD
+Data: POST
+--------------------------------------------------
+2024-11-15 16:57:23 - REQUEST_URI
+Data: /app/phonepe/payment_callback.php
+--------------------------------------------------
+2024-11-15 16:57:23 - HTTP_USER_AGENT
+Data: okhttp/4.11.0-PPE/hermes-1_4_4
+--------------------------------------------------
+2024-11-15 16:57:23 - CONTENT_TYPE
+Data: application/json
+--------------------------------------------------
+2024-11-15 16:57:23 - POST Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-11-15 16:57:23 - GET Data
+Data: Array
+(
+)
+
+--------------------------------------------------
+2024-11-15 16:57:23 - Headers
+Data: Array
+(
+    [Host] => muttchik.com
+    [x-verify] => 5a4ab1726a6778f22aba2a4172b352641bf94ba95c7166bfa9e048cc967a48c7###1
+    [Content-Type] => application/json
+    [Content-Length] => 383
+    [Accept-Encoding] => gzip
+    [User-Agent] => okhttp/4.11.0-PPE/hermes-1_4_4
+)
+
+--------------------------------------------------
+2024-11-15 16:57:23 - Raw input received
+Data: {"response":"eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiNTA0MiIsInRyYW5zYWN0aW9uSWQiOm51bGwsImFtb3VudCI6MjUwMDAsInN0YXRlIjoiRkFJTEVEIiwicmVzcG9uc2VDb2RlIjoiVFhOX0FVVE9fRkFJTEVEIiwicGF5bWVudEluc3RydW1lbnQiOm51bGwsImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ=="}
+--------------------------------------------------
+2024-11-15 16:57:23 - Decoded response
+Data: Array
+(
+    [response] => eyJzdWNjZXNzIjpmYWxzZSwiY29kZSI6IlBBWU1FTlRfRVJST1IiLCJtZXNzYWdlIjoiUGF5bWVudCBGYWlsZWQiLCJkYXRhIjp7Im1lcmNoYW50SWQiOiJNMjI3VUs3QUZWNEwwIiwibWVyY2hhbnRUcmFuc2FjdGlvbklkIjoiNTA0MiIsInRyYW5zYWN0aW9uSWQiOm51bGwsImFtb3VudCI6MjUwMDAsInN0YXRlIjoiRkFJTEVEIiwicmVzcG9uc2VDb2RlIjoiVFhOX0FVVE9fRkFJTEVEIiwicGF5bWVudEluc3RydW1lbnQiOm51bGwsImZlZXNDb250ZXh0Ijp7ImFtb3VudCI6MH19fQ==
+)
+
+--------------------------------------------------
+2024-11-15 16:57:23 - Decoded base64 payment data
+Data: Array
+(
+    [success] => 
+    [code] => PAYMENT_ERROR
+    [message] => Payment Failed
+    [data] => Array
+        (
+            [merchantId] => M227UK7AFV4L0
+            [merchantTransactionId] => 5042
+            [transactionId] => 
+            [amount] => 25000
+            [state] => FAILED
+            [responseCode] => TXN_AUTO_FAILED
+            [paymentInstrument] => 
+            [feesContext] => Array
+                (
+                    [amount] => 0
+                )
+
+        )
+
+)
+
+--------------------------------------------------
+2024-11-15 16:57:23 - Missing required data
+Data: Array
+(
+    [transactionId] => 
+    [TEMP] => not set
+    [UID] => not set
+)
+
+--------------------------------------------------

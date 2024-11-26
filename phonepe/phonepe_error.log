@@ -1,0 +1,150 @@
+[29-Oct-2024 08:44:05 UTC] Initializing PaymentCallbackHandler
+[29-Oct-2024 08:44:05 UTC] PHP Notice:  Undefined variable: conn in /home/u971358288/domains/muttchik.com/public_html/app/phonepe/payment_callback.php on line 278
+[29-Oct-2024 08:44:05 UTC] PaymentCallbackHandler initialized
+[29-Oct-2024 08:44:05 UTC] Starting payment callback handling
+[29-Oct-2024 08:44:05 UTC] REQUEST METHOD: POST
+[29-Oct-2024 08:44:05 UTC] HTTP HEADERS: Array
+(
+    [Host] => muttchik.com
+    [Content-Length] => 435
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [origin] => https://mercury-t2.phonepe.com
+    [Content-Type] => application/x-www-form-urlencoded
+    [upgrade-insecure-requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [sec-fetch-site] => cross-site
+    [sec-fetch-mode] => navigate
+    [sec-fetch-user] => ?1
+    [sec-fetch-dest] => document
+    [Referer] => https://mercury-t2.phonepe.com/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [priority] => u=0, i
+)
+
+[29-Oct-2024 08:44:05 UTC] Raw POST data: code=PAYMENT_SUCCESS&merchantId=M227UK7AFV4L0&transactionId=2211&amount=100&providerReferenceId=T2410291407329603195909&merchantOrderId=2211&param1=na&param2=na&param3=na&param4=na&param5=na&param6=na&param7=na&param8=na&param9=na&param10=na&param11=na&param12=na&param13=na&param14=na&param15=na&param16=na&param17=na&param18=na&param19=na&param20=na&checksum=81adebb51ca80d37b8516d0f00b3bcaa5eb22b93fec864f67331618fdba0ccea%23%23%231
+[29-Oct-2024 08:44:05 UTC] Decoded response: 
+[29-Oct-2024 08:44:05 UTC] Using raw post as payload
+[29-Oct-2024 08:44:05 UTC] X-Verify header: 
+[29-Oct-2024 08:44:05 UTC] No X-Verify header present, skipping signature verification
+[29-Oct-2024 08:44:05 UTC] Decoded base64 payment data: 
+[29-Oct-2024 08:44:05 UTC] Could not decode payment data
+[29-Oct-2024 08:44:05 UTC] Payment callback error: Invalid payment data structure
+[29-Oct-2024 08:44:05 UTC] Stack trace: #0 /home/u971358288/domains/muttchik.com/public_html/app/phonepe/payment_callback.php(279): PaymentCallbackHandler->handleCallback()
+#1 {main}
+[29-Oct-2024 08:55:08 UTC] PHP Notice:  Undefined index: phone in /home/u971358288/domains/muttchik.com/public_html/app/pay/db.php on line 22
+[29-Oct-2024 14:25:08 Asia/Kolkata] Initializing PaymentCallbackHandler with database connection
+[29-Oct-2024 14:25:08 Asia/Kolkata] PaymentCallbackHandler initialized with valid database connection
+[29-Oct-2024 14:25:08 Asia/Kolkata] Starting payment callback handling
+[29-Oct-2024 14:25:08 Asia/Kolkata] REQUEST METHOD: POST
+[29-Oct-2024 14:25:08 Asia/Kolkata] HTTP HEADERS: Array
+(
+    [Host] => muttchik.com
+    [Content-Length] => 435
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [origin] => https://mercury-t2.phonepe.com
+    [Content-Type] => application/x-www-form-urlencoded
+    [upgrade-insecure-requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [sec-fetch-site] => cross-site
+    [sec-fetch-mode] => navigate
+    [sec-fetch-dest] => document
+    [Referer] => https://mercury-t2.phonepe.com/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [priority] => u=0, i
+)
+
+[29-Oct-2024 14:25:08 Asia/Kolkata] Raw POST data: code=PAYMENT_SUCCESS&merchantId=M227UK7AFV4L0&transactionId=2211&amount=100&providerReferenceId=T2410291407329603195909&merchantOrderId=2211&param1=na&param2=na&param3=na&param4=na&param5=na&param6=na&param7=na&param8=na&param9=na&param10=na&param11=na&param12=na&param13=na&param14=na&param15=na&param16=na&param17=na&param18=na&param19=na&param20=na&checksum=81adebb51ca80d37b8516d0f00b3bcaa5eb22b93fec864f67331618fdba0ccea%23%23%231
+[29-Oct-2024 14:25:08 Asia/Kolkata] Decoded response: 
+[29-Oct-2024 14:25:08 Asia/Kolkata] Using raw post as payload
+[29-Oct-2024 14:25:08 Asia/Kolkata] X-Verify header: 
+[29-Oct-2024 14:25:08 Asia/Kolkata] No X-Verify header present, skipping signature verification
+[29-Oct-2024 14:25:08 Asia/Kolkata] Decoded base64 payment data: 
+[29-Oct-2024 14:25:08 Asia/Kolkata] Could not decode payment data
+[29-Oct-2024 14:25:08 Asia/Kolkata] Payment callback error: Invalid payment data structure
+[29-Oct-2024 14:25:08 Asia/Kolkata] Stack trace: #0 /home/u971358288/domains/muttchik.com/public_html/app/phonepe/payment_callback.php(297): PaymentCallbackHandler->handleCallback()
+#1 {main}
+[29-Oct-2024 14:29:47 Asia/Kolkata] Initializing PaymentCallbackHandler with database connection
+[29-Oct-2024 14:29:47 Asia/Kolkata] PaymentCallbackHandler initialized with valid database connection
+[29-Oct-2024 14:29:47 Asia/Kolkata] Starting payment callback handling
+[29-Oct-2024 14:29:47 Asia/Kolkata] REQUEST METHOD: POST
+[29-Oct-2024 14:29:47 Asia/Kolkata] HTTP HEADERS: Array
+(
+    [Host] => muttchik.com
+    [Content-Length] => 435
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [upgrade-insecure-requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+    [origin] => https://mercury-t2.phonepe.com
+    [Content-Type] => application/x-www-form-urlencoded
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [sec-fetch-site] => cross-site
+    [sec-fetch-mode] => navigate
+    [sec-fetch-user] => ?1
+    [sec-fetch-dest] => document
+    [Referer] => https://mercury-t2.phonepe.com/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [priority] => u=0, i
+)
+
+[29-Oct-2024 14:29:47 Asia/Kolkata] Raw POST data: code=PAYMENT_SUCCESS&merchantId=M227UK7AFV4L0&transactionId=2211&amount=100&providerReferenceId=T2410291407329603195909&merchantOrderId=2211&param1=na&param2=na&param3=na&param4=na&param5=na&param6=na&param7=na&param8=na&param9=na&param10=na&param11=na&param12=na&param13=na&param14=na&param15=na&param16=na&param17=na&param18=na&param19=na&param20=na&checksum=81adebb51ca80d37b8516d0f00b3bcaa5eb22b93fec864f67331618fdba0ccea%23%23%231
+[29-Oct-2024 14:29:47 Asia/Kolkata] Decoded response: 
+[29-Oct-2024 14:29:47 Asia/Kolkata] Using raw post as payload
+[29-Oct-2024 14:29:47 Asia/Kolkata] X-Verify header: 
+[29-Oct-2024 14:29:47 Asia/Kolkata] No X-Verify header present, skipping signature verification
+[29-Oct-2024 14:29:47 Asia/Kolkata] Decoded base64 payment data: 
+[29-Oct-2024 14:29:47 Asia/Kolkata] Could not decode payment data
+[29-Oct-2024 14:29:47 Asia/Kolkata] Payment callback error: Invalid payment data structure
+[29-Oct-2024 14:29:47 Asia/Kolkata] Stack trace: #0 /home/u971358288/domains/muttchik.com/public_html/app/phonepe/payment_callback.php(297): PaymentCallbackHandler->handleCallback()
+#1 {main}
+[29-Oct-2024 14:30:34 Asia/Kolkata] Initializing PaymentCallbackHandler with database connection
+[29-Oct-2024 14:30:34 Asia/Kolkata] PaymentCallbackHandler initialized with valid database connection
+[29-Oct-2024 14:30:34 Asia/Kolkata] Starting payment callback handling
+[29-Oct-2024 14:30:34 Asia/Kolkata] REQUEST METHOD: POST
+[29-Oct-2024 14:30:34 Asia/Kolkata] HTTP HEADERS: Array
+(
+    [Host] => muttchik.com
+    [Content-Length] => 391
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Android WebView";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+    [sec-ch-ua-mobile] => ?1
+    [sec-ch-ua-platform] => "Android"
+    [origin] => https://mercury-t2.phonepe.com
+    [Content-Type] => application/x-www-form-urlencoded
+    [upgrade-insecure-requests] => 1
+    [User-Agent] => Mozilla/5.0 (Linux; Android 14; RMX3771 Build/UKQ1.230924.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/129.0.6668.100 Mobile Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [x-requested-with] => com.muttchik.user
+    [sec-fetch-site] => cross-site
+    [sec-fetch-mode] => navigate
+    [sec-fetch-user] => ?1
+    [sec-fetch-dest] => document
+    [Referer] => https://mercury-t2.phonepe.com/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-GB,en-US;q=0.9,en;q=0.8
+    [priority] => u=0, i
+)
+
+[29-Oct-2024 14:30:34 Asia/Kolkata] Raw POST data: code=PAYMENT_PENDING&merchantId=M227UK7AFV4L0&transactionId=8031&amount=100&merchantOrderId=8031&param1=na&param2=na&param3=na&param4=na&param5=na&param6=na&param7=na&param8=na&param9=na&param10=na&param11=na&param12=na&param13=na&param14=na&param15=na&param16=na&param17=na&param18=na&param19=na&param20=na&checksum=b72f23cbf7f3f872ce3b5653d214bffaedbc499a7783c58a536b44f15b10c39b%23%23%231
+[29-Oct-2024 14:30:34 Asia/Kolkata] Decoded response: 
+[29-Oct-2024 14:30:34 Asia/Kolkata] Using raw post as payload
+[29-Oct-2024 14:30:34 Asia/Kolkata] X-Verify header: 
+[29-Oct-2024 14:30:34 Asia/Kolkata] No X-Verify header present, skipping signature verification
+[29-Oct-2024 14:30:34 Asia/Kolkata] Decoded base64 payment data: 
+[29-Oct-2024 14:30:34 Asia/Kolkata] Could not decode payment data
+[29-Oct-2024 14:30:34 Asia/Kolkata] Payment callback error: Invalid payment data structure
+[29-Oct-2024 14:30:34 Asia/Kolkata] Stack trace: #0 /home/u971358288/domains/muttchik.com/public_html/app/phonepe/payment_callback.php(297): PaymentCallbackHandler->handleCallback()
+#1 {main}

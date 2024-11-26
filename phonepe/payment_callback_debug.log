@@ -1,0 +1,57 @@
+2024-10-29 15:18:27 - PaymentCallbackHandler initialized
+2024-10-29 15:18:27 - Include paths: .:/opt/alt/php74/usr/share/pear
+2024-10-29 15:18:27 - Current directory: /home/u971358288/domains/muttchik.com/public_html/app/phonepe
+2024-10-29 15:18:27 - Starting callback handling
+2024-10-29 15:18:27 - POST Data
+Data: Array
+(
+    [code] => PAYMENT_SUCCESS
+    [merchantId] => M227UK7AFV4L0
+    [transactionId] => 7605
+    [amount] => 100
+    [providerReferenceId] => T2410291452279740308003
+    [merchantOrderId] => 7605
+    [param1] => na
+    [param2] => na
+    [param3] => na
+    [param4] => na
+    [param5] => na
+    [param6] => na
+    [param7] => na
+    [param8] => na
+    [param9] => na
+    [param10] => na
+    [param11] => na
+    [param12] => na
+    [param13] => na
+    [param14] => na
+    [param15] => na
+    [param16] => na
+    [param17] => na
+    [param18] => na
+    [param19] => na
+    [param20] => na
+    [checksum] => dc8f7e1dac74ec428bb9a0ae980ac64fc0a90f67c71752cc9474170ada3fc568###1
+)
+
+2024-10-29 15:18:27 - GET Data
+Data: Array
+(
+)
+
+2024-10-29 15:18:27 - SESSION Data
+Data: Array
+(
+)
+
+2024-10-29 15:18:27 - Raw input
+Data: code=PAYMENT_SUCCESS&merchantId=M227UK7AFV4L0&transactionId=7605&amount=100&providerReferenceId=T2410291452279740308003&merchantOrderId=7605&param1=na&param2=na&param3=na&param4=na&param5=na&param6=na&param7=na&param8=na&param9=na&param10=na&param11=na&param12=na&param13=na&param14=na&param15=na&param16=na&param17=na&param18=na&param19=na&param20=na&checksum=dc8f7e1dac74ec428bb9a0ae980ac64fc0a90f67c71752cc9474170ada3fc568%23%23%231
+2024-10-29 15:18:27 - Decoded response
+2024-10-29 15:18:27 - Error in callback
+Data: Array
+(
+    [error] => JSON decode error: Syntax error
+    [trace] => #0 /home/u971358288/domains/muttchik.com/public_html/app/phonepe/payment_callback.php(195): PaymentCallbackHandler->handleCallback()
+#1 {main}
+)
+
