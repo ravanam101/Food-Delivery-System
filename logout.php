@@ -1,13 +1,9 @@
 <?php 
-include 'pay/db.php';
-unset($_COOKIE['phone']);
- $cookie_name="phone";
-	    $cookie_value="";
-	    $domain=$_SERVER['SERVER_NAME'];
-	    setcookie($cookie_name,$cookie_value,time()+(86400*365),"/$route",$domain);
+$aid=addslashes($_GET['aid']);
 session_start();
-
-session_destroy();
-header("Location:index.php");
+if(isset($_SESSION['logindboy'])){
+    session_destroy();
+    header("Location:index.php?aid=$aid");
+}
 
 ?>
