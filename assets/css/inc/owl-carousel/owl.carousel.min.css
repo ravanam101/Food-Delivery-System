@@ -1,0 +1,240 @@
+/**
+ * Owl Carousel v2.3.4
+ * Owl Carousel is a responsive and customizable jQuery carousel plugin.
+ * This CSS file contains the default styles for the Owl Carousel.
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+
+/* Disable tap highlight color for better mobile interaction */
+.owl-carousel, .owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative; /* Ensures elements are positioned relative to the carousel */
+}
+
+/* Main carousel wrapper */
+.owl-carousel {
+    display: none; /* Hide initially until loaded */
+    width: 100%; /* Full width carousel */
+    z-index: 1; /* Ensure carousel has higher stacking order */
+}
+
+/* Carousel stage where the items are placed */
+.owl-carousel .owl-stage {
+    position: relative; /* Items inside the stage will be positioned relative to this */
+    -ms-touch-action: pan-Y; /* Ensure vertical scrolling works on touch devices */
+    touch-action: manipulation; /* Allows for touch interaction */
+    -moz-backface-visibility: hidden; /* Improves performance by hiding backface when animating */
+}
+
+/* Ensures clear floating elements in stage */
+.owl-carousel .owl-stage:after {
+    content: "."; /* Hidden content to clear floats */
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+/* Outer wrapper of the stage */
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden; /* Hides content that exceeds the container */
+    -webkit-transform: translate3d(0, 0, 0); /* Enables GPU acceleration for smoother animations */
+}
+
+/* Items and wrapper have hidden backface for better performance */
+.owl-carousel .owl-item, .owl-carousel .owl-wrapper {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0); /* Forces GPU acceleration */
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+}
+
+/* Each item in the carousel */
+.owl-carousel .owl-item {
+    min-height: 1px; /* Ensures the item always has at least 1px height */
+    float: left; /* Items float left to create the horizontal sliding effect */
+    -webkit-backface-visibility: hidden; /* Performance boost by hiding backface */
+    -webkit-touch-callout: none; /* Prevents touch callout (like text selection) on mobile */
+}
+
+/* Ensures images inside items take full width */
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%; /* Images take the full width of their container */
+}
+
+/* Hides navigation dots and arrows when disabled */
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: none;
+}
+
+/* Ensures carousel is visible once loaded (no-JS fallback) */
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+}
+
+/* Styling for navigation dots and arrows */
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+    cursor: pointer; /* Make dots and arrows clickable */
+    -webkit-user-select: none; /* Disable text selection on interaction elements */
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Default styling for navigation buttons */
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+
+/* Carousel when it's loading */
+.owl-carousel.owl-loading {
+    opacity: 0; /* Hides the carousel while loading */
+    display: block;
+}
+
+/* Carousel when it's hidden */
+.owl-carousel.owl-hidden {
+    opacity: 0;
+}
+
+/* Carousel when refreshing */
+.owl-carousel.owl-refresh .owl-item {
+    visibility: hidden; /* Hide items during refresh */
+}
+
+/* Drag state of the carousel */
+.owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y; /* Ensure vertical scrolling while dragging */
+    touch-action: pan-y;
+    -webkit-user-select: none; /* Disable user selection while dragging */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* When the carousel is draggable */
+.owl-carousel.owl-grab {
+    cursor: move; /* Show move cursor */
+    cursor: grab; /* Show grab cursor when draggable */
+}
+
+/* Right-to-left carousel direction */
+.owl-carousel.owl-rtl {
+    direction: rtl; /* Enables RTL support */
+}
+
+/* RTL carousel items float to the right */
+.owl-carousel.owl-rtl .owl-item {
+    float: right;
+}
+
+/* Animation classes for carousel items */
+.owl-carousel .animated {
+    animation-duration: 5s; /* Duration of animations */
+    animation-fill-mode: both; /* Ensures animation applies both before and after */
+}
+
+/* Z-index for items being animated in and out */
+.owl-carousel .owl-animated-in {
+    z-index: 0; /* Lower z-index for incoming item */
+}
+
+.owl-carousel .owl-animated-out {
+    z-index: 1; /* Higher z-index for outgoing item */
+}
+
+/* Fade-out animation */
+.owl-carousel .fadeOut {
+    animation-name: fadeOut; /* CSS keyframe animation */
+}
+
+/* Keyframes for fade-out effect */
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+/* Smooth height transition for carousel */
+.owl-height {
+    transition: height .5s ease-in-out;
+}
+
+/* Lazy loading for images */
+.owl-carousel .owl-item .owl-lazy {
+    opacity: 0; /* Images start invisible */
+    transition: opacity .4s ease; /* Smooth fade-in transition */
+}
+
+/* Hide lazy-loaded images before they're loaded */
+.owl-carousel .owl-item .owl-lazy:not([src]), .owl-carousel .owl-item .owl-lazy[src^=""] {
+    max-height: 0;
+}
+
+/* Preserve 3D transformations for lazy-loaded images */
+.owl-carousel .owl-item img.owl-lazy {
+    transform-style: preserve-3d;
+}
+
+/* Video wrapper styles */
+.owl-carousel .owl-video-wrapper {
+    position: relative;
+    height: 100%;
+    background: #000; /* Black background for video */
+}
+
+/* Play button for video */
+.owl-carousel .owl-video-play-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left: 50%; /* Center the icon */
+    top: 50%;
+    margin-left: -40px; /* Offset to center */
+    margin-top: -40px;
+    background: url(owl.video.play.png) no-repeat;
+    cursor: pointer;
+    z-index: 1;
+    -webkit-backface-visibility: hidden; /* Performance boost */
+    transition: transform .1s ease; /* Animation on hover */
+}
+
+/* Scale play icon on hover */
+.owl-carousel .owl-video-play-icon:hover {
+    -ms-transform: scale(1.3, 1.3); /* Scale effect */
+    transform: scale(1.3, 1.3);
+}
+
+/* Hide play icon when video is playing */
+.owl-carousel .owl-video-playing .owl-video-play-icon,
+.owl-carousel .owl-video-playing .owl-video-tn {
+    display: none;
+}
+
+/* Video thumbnail styles */
+.owl-carousel .owl-video-tn {
+    opacity: 0; /* Start invisible */
+    height: 100%; /* Full height thumbnail */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain; /* Contain video thumbnail */
+    transition: opacity .4s ease; /* Smooth fade-in */
+}
+
+/* Video frame wrapper */
+.owl-carousel .owl-video-frame {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%; /* Full width video */
+}
