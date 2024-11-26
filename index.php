@@ -1,16 +1,16 @@
 <?php 
  session_start();
+ 
+include '../pay/db.php';
 
 
-include 'pay/db.php';
-$sql="SELECT * FROM `settings`where id=1";
-$qry=mysqli_query($conn,$sql);
-$raw=mysqli_fetch_assoc($qry);
-$appname=$raw['appname'];
+$mes=$_GET['message'];
 
-if(isset($_COOKIE['phone'])){
-  
-header("Location:shop.php");}
+$qryrestro="SELECT * FROM `settings`where id=1";
+$rawrestro=mysqli_query($conn,$qryrestro);
+$resrestro= mysqli_fetch_assoc($rawrestro);
+$appname=$resrestro["appname"];
+
 	?>
 
 
@@ -22,8 +22,8 @@ header("Location:shop.php");}
     <meta name="viewport"
         content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-transparent">
-    <meta name="theme-color" content="#FC5431">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#000000">
     <title><?php echo $appname; ?></title>
     <meta name="description" content="Mobilekit HTML Mobile UI Kit">
     <meta name="keywords" content="bootstrap 4, mobile template, cordova, phonegap, mobile, html" />
@@ -33,112 +33,68 @@ header("Location:shop.php");}
     <link rel="manifest" href="__manifest.json">
 </head>
 
-<body class="bg-white" onload="getLocation();">
+<body class="bg-white">
 
     <!-- loader -->
-    <!-- <div id="loader"> -->
-    <!--    <img src="sadmin/images/<?php echo  $applogo; ?>" alt="logo" width="220" height="50"> -->
-        <!--<div class="spinner-grow text-warning" role="status"></div>-->
-    <!-- </div> -->
+    <div id="loader">
+        <div class="spinner-border text-primary" role="status"></div>
+    </div>
     <!-- * loader -->
 
 
     <!-- App Capsule -->
     <div id="appCapsule" class="pt-0">
-<br><br>
-        <div class="login-form mt-4">
+
+        <div class="login-form mt-1">
             <div class="section">
-                <img src="./sadmin/images/<?php echo $applogo; ?>" alt="image" height="100" width="260">
+                <img src="https://media.tenor.com/LeSVOZJUt-oAAAAM/muuve-rider.gif" alt="image" height="250" width="250">
             </div>
-            <div class="section mt-4">
-                <h3>Welcome to <?php echo $appname; ?></h3>
-                <!--<h1></h1>-->
-                <h4>Enter Your Number to Signup or Login </h4>
+            <div class="section mt-1">
+                <h2>Rider Dashboard</h2>
+                <h1><?php echo $appname; ?></h1>
+                <h4>Fill the form to log in</h4>
             </div>
-            <div class="section mt-3 mb-5">
-                <form action="otp.php" method="POST">
+            <div class="section mt-1 mb-5">
+                <form action="login.php" method="POST">
                     <div class="form-group boxed">
                         <div class="input-wrapper">
-                            <input type="number" class="form-control" name="phone" placeholder="Enter Phone No.">
-                           
+                            <input type="number" class="form-control" name="phone" placeholder="Registered Phone No.">
                             <i class="clear-input">
                                 <ion-icon name="close-circle"></ion-icon>
                             </i>
                         </div>
                     </div>
 
-                    
-                    <div class="section mt-1 mb-5">
-                       
-                            <!--<a href="location.php">-->
-                       <!--<button class="btn btn-outline-secondary">Skip Login</button></a>-->
+                    <div class="form-group boxed">
+                        <div class="input-wrapper">
+                            <input type="password" class="form-control" name="password" placeholder="Password">
+                            
+                            <i class="clear-input">
+                                <ion-icon name="close-circle"></ion-icon>
+                            </i>
+                        </div>
+                    </div>
+
+                    <div class="form-links mt-2">
+                        <div>
+                            <?php echo $mes;?>
+                        </div>
                         <!--<div><a href="page-forgot-password.html" class="text-muted">Forgot Password?</a></div>-->
-                    
                     </div>
 
                     <div class="form-button-group">
-                        <button type="submit" class="btn btn-dark btn-block btn-lg">Signup or Login</button>
+                        <button type="submit" class="btn btn-danger btn-block btn-lg">Log in</button>
                     </div>
-                   
+
                 </form>
-                <br>
-                <div class="section mt-8 mb-1" >
-                    <a href="shop.php">
-                    <div class="form-button mt-6" >
-                        <button  class="btn btn-outline-secondary">Skip Login</button>
-                    </div></a>
-                </div>
             </div>
         </div>
 
 
     </div>
     <!-- * App Capsule -->
-     <script language="JavaScript">
-      
-       window.onload = function () {
-           document.addEventListener("contextmenu", function (e) {
-               e.preventDefault();
-           }, false);
-           document.addEventListener("keydown", function (e) {
-               //document.onkeydown = function(e) {
-               // "I" key
-               if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
-                   disabledEvent(e);
-               }
-               // "J" key
-               if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
-                   disabledEvent(e);
-               }
-               // "S" key + macOS
-               if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
-                   disabledEvent(e);
-               }
-               // "U" key
-               if (e.ctrlKey && e.keyCode == 85) {
-                   disabledEvent(e);
-               }
-               // "c" key
-               if (e.ctrlKey && e.keyCode == 67) {
-                   disabledEvent(e);
-               }
-               // "F12" key
-               if (event.keyCode == 123) {
-                   disabledEvent(e);
-               }
-           }, false);
-           function disabledEvent(e) {
-               if (e.stopPropagation) {
-                   e.stopPropagation();
-               } else if (window.event) {
-                   window.event.cancelBubble = true;
-               }
-               e.preventDefault();
-               return false;
-           }
-       }
-//edit: removed ";" from last "}" because of javascript error
-</script>
+
+
 
     <!-- ///////////// Js Files ////////////////////  -->
     <!-- Jquery -->
@@ -154,6 +110,12 @@ header("Location:shop.php");}
     <script src="assets/js/plugins/jquery-circle-progress/circle-progress.min.js"></script>
     <!-- Base Js File -->
     <script src="assets/js/base.js"></script>
+</script> 
+
+<script>
+document.oncontextmenu = function() { 
+                return false; };
+      </script>
 
 </body>
 
